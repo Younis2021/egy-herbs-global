@@ -1,0 +1,83 @@
+.sixth-sec {
+  background: #596221;
+  color: #ffffff;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sixth-sec .container {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.sixth-sec .container .left-div {
+  background-position: center !important;
+  background-size: cover !important;
+  flex: 0.5;
+  border-radius: 5px;
+}
+
+.sixth-sec .container .right-div-container {
+  flex: 0.45;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sixth-sec .container .right-div {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sixth-sec .rating-div {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sixth-sec .rating-div span {
+  font-size: 16px;
+  font-family: "MarkPro";
+}
+
+.sixth-sec .rating-div .rating {
+  font-size: 26px;
+  display: flex;
+  gap: 10px;
+}
+
+.sixth-sec .container .right-div .btn {
+  border: none;
+  background: #fff;
+  font-weight: 900;
+  width: fit-content;
+}
+
+.sixth-sec .top {
+  font-family: "MarkPro";
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.sixth-sec .tittle {
+  font-size: 36px;
+  font-family: "Kepler Std";
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.sixth-sec .paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "MarkPro";
+  font-weight: normal;
+  color: #ffffff;
+}

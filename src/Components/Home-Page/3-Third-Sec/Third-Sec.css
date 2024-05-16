@@ -1,0 +1,68 @@
+.third-sec {
+  background: linear-gradient(
+    90deg,
+    rgba(240, 238, 227, 1) 100%,
+    rgba(229, 211, 251, 1) 100%
+  );
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-sec .container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-sec .container .left-div {
+  background-position: center !important;
+  background-size: cover !important;
+  flex: 0.55;
+  border-radius: 5px;
+}
+
+.third-sec .container .right-div-container {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.third-sec .container .right-div {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.third-sec .container .right-div .btn {
+  border: none;
+  background: #fff;
+  color: #16402d;
+  font-weight: 900;
+}
+
+.top {
+  font-family: "MarkPro";
+  letter-spacing: 5.4px;
+  font-size: 16px;
+}
+
+.tittle {
+  font-size: 36px;
+  font-family: "Kepler Std";
+  font-weight: normal;
+  color: #16402d;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "MarkPro";
+  font-weight: normal;
+  color: #524f4f;
+}

@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
+import "./App.css";
+import GlobalStyle from "./GlobalStyles";
 
-function App() {
+import Header from "./Components/Header/Header";
+import HomePage from "./Components/Home-Page/Home-Page";
+import ProductPage from "./Components/Product-Page/Product-Page";
+
+export default function App() {
+  const location = useLocation();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <div className="App">
+        <Header />
+        <Routes location={location}>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/products" element={<ProductPage />} />
+        </Routes>
+      </div>
+    </>
   );
 }
-
-export default App;

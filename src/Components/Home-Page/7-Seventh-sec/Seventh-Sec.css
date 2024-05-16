@@ -1,0 +1,97 @@
+.seventh-sec {
+  height: 85vh;
+}
+
+.seventh-sec .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seventh-sec .container .upper-div {
+  flex: 0.1;
+  font-size: 36px;
+  font-family: "Kepler Std";
+  font-weight: 100;
+  color: #16402d;
+}
+
+.seventh-sec .container .lower-div {
+  flex: 0.9;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.seventh-sec .container .lower-div .card-div {
+  background: #ebe0d2;
+  border: 1px solid #16402d;
+  flex: 0.2;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.seventh-sec .container .lower-div .card-div .card-top {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.seventh-sec .container .lower-div .card-div .card-top .card-icon {
+  flex: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seventh-sec .container .lower-div .card-div .card-top .card-icon img {
+  width: 75%;
+}
+
+.seventh-sec .container .lower-div .card-div .card-top .card-tittle {
+  text-align: center;
+  font-size: 18px;
+  font-family: "MarkPro";
+  font-weight: 900;
+  color: #16402d;
+}
+
+.seventh-sec .container .lower-div .card-div .card-top .card-paragraph {
+  text-align: center;
+  width: 80%;
+  color: #7d7d7d;
+  font-size: 14px;
+  font-family: "MarkPro";
+}
+
+.seventh-sec .container .lower-div .card-div .card-bottom {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.seventh-sec .container .lower-div .card-div .card-bottom .link {
+  color: #999999;
+  text-decoration: underline;
+  font-size: 14px;
+  width: 90%;
+  border: none;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.seventh-sec .container .lower-div .card-div .card-bottom .link:hover {
+  border: none;
+  color: #205c40;
+  font-weight: 900 !important;
+}

@@ -1,0 +1,78 @@
+.tenth-sec {
+  height: 30vh;
+}
+
+.tenth-sec .container {
+  height: 100%;
+  background: #fcfbf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tenth-sec .container .lower-div {
+  height: 100%;
+  width: 85%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tenth-sec .container .lower-div .card-div {
+  flex: 0.2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.tenth-sec .container .lower-div .card-div .card-top {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tenth-sec .container .lower-div .card-div .card-top .card-icon {
+  flex: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tenth-sec .container .lower-div .card-div .card-top .card-icon img {
+  width: 100%;
+}
+
+.tenth-sec .container .lower-div .card-div .card-top .card-title {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Kepler Std";
+  font-weight: 100;
+  color: #16402d;
+}
+
+.tenth-sec .container .lower-div .card-div .card-top .card-paragraph {
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "MarkPro";
+  line-height: 22px;
+}
+
+.tenth-sec .link {
+  color: #16402d;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+
+.tenth-sec .link:hover {
+  color: #205c40;
+  font-weight: 600;
+}

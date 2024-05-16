@@ -1,0 +1,125 @@
+.best-sellers {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sellers {
+  padding: 30px;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.sellers .heading h3 {
+  font-size: 46px;
+  font-family: "Kepler Std";
+  font-weight: normal;
+  color: #16402d;
+}
+
+.card {
+  width: 23% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  height: 100% !important;
+  cursor: pointer;
+}
+
+.card-image {
+  flex: 0.9;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 3px 4px 6px #0003;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image img {
+  width: 80%;
+}
+
+.card-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card-text span {
+  font-family: "MarkPro";
+  color: #16402d;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.card-text h2 {
+  font-family: "MarkPro";
+  color: #16402d;
+  font-size: 18px;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.details div:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.details .rating {
+  flex: 0.3;
+  display: flex;
+  column-gap: 5px;
+  font-size: 17px;
+}
+
+.details .pricing {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.03125rem;
+  color: #16402d;
+  font-family: "MarkPro";
+  font-weight: 600;
+  flex: 0.3;
+}
+
+.details .reviewing {
+  font-size: 12px;
+  font-weight: 400;
+  color: #16402d;
+  font-family: "MarkPro";
+  font-weight: 900;
+  flex: 0.3;
+}
+
+.details button {
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: 1px solid #16402d;
+  color: #16402d;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-size: 15px;
+  font-family: "MarkPro";
+  font-weight: 600;
+  transition: 0.2s linear;
+}
+
+.details button:hover {
+  background: #16402d;
+  color: #fff;
+}

@@ -1,0 +1,179 @@
+.footer {
+  background: #183028;
+  background: url("../../../img/6.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.footer .glass {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(20, 20, 20, 0.94);
+  opacity: 0.9;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  width: 95%;
+}
+
+.footer .container .upper-div {
+  flex: 0.7;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .container .upper-div .footer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer .container .upper-div .footer-card .our-info {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-family: "MarkPro";
+  color: #fff;
+}
+.footer .container .upper-div .footer-card .our-info .footer-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.1s linear;
+}
+.footer .container .upper-div .footer-card .our-info .footer-link:hover {
+  color: #038834;
+}
+
+.footer .container .upper-div .footer-card .our-info * {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.footer .container .upper-div .footer-card .h1 {
+  color: #fff;
+  font-family: "Kepler Std";
+  font-weight: 100;
+  font-size: 30px;
+  flex: 0.2;
+}
+
+.icon {
+  color: #038834;
+}
+
+.footer .container .upper-div .footer-card .social-media {
+  flex: 0.1;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .container .upper-div .footer-card .social-media .icon-Link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.2s linear;
+}
+
+.footer .container .upper-div .footer-card .social-media .icon-Link * {
+  color: #fff;
+}
+
+.footer .container .upper-div .footer-card .social-media .icon-Link:hover {
+  background: #038834;
+}
+
+.footer .container .upper-div .first {
+  flex: 0.3;
+}
+.footer .container .upper-div .second {
+  flex: 0.15;
+}
+
+.footer .container .upper-div .third {
+  flex: 0.25;
+}
+
+.footer .container .upper-div .forth {
+  flex: 0.15;
+}
+
+.mail {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.mail * {
+  height: 80%;
+}
+
+.mail #mail-box {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0 20px;
+  font-size: 16px;
+  outline: none;
+  flex: 0.8;
+  color: #fff;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.mail-icon {
+  background: #038834;
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-icon * {
+  width: 50%;
+}
+
+.footer .container .lower-div {
+  border-top: 1px solid #454545;
+  flex: 0.2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: "MarkPro";
+  font-weight: 600;
+}
+
+.footer .container .lower-div * {
+  display: flex;
+}
+
+.footer .container .lower-div .left-div {
+  flex: 0.7;
+}
+
+.footer .container .lower-div .right-div {
+  flex: 0.2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

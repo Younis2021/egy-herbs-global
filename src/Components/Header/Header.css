@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "MarkPro";
+  src: url("../../fonts/MARKPROBOLD.OTF");
+}
+
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fcfbf9;
+  box-shadow: 0 5px 16px #0000000a;
+  transition: 0.5s;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1111;
+  transition: top 0.25s ease-in-out, margin 0.25s ease-in-out,
+    background 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.Header .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+.nav-1-div {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 20px;
+  width: 70%;
+}
+
+.logo-link {
+  height: 120px;
+  width: 200px;
+  background-image: url("../../img/logo-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Header nav ul {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.Header nav ul li {
+  padding: 10px 0;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.link {
+  color: #000;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  padding: 10px 0;
+  border-bottom: 2px solid transparent;
+  cursor: default;
+  font-family: "MarkPro";
+  font-weight: 900;
+  width: fit-content;
+}
+
+.link:hover {
+  border-bottom: 2px solid #b0603b;
+}
+
+.link span {
+  font-weight: 100;
+}
+
+.profile-div {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 35px;
+  padding-bottom: 25px;
+}
+
+.profile-div .icon {
+  cursor: pointer;
+  font-size: 25px;
+  color: #205c40;
+}
+
+.profile-div .icon:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,75 @@
+.ninth-sec {
+  background: url("../../../img/Burdock_1103_3440x2x.progressive2.jpg");
+  background-position: bottom
+  ;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ninth-sec .container {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ninth-sec .container .text-div {
+  background: #0009;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  height: 90%;
+  font-family: "MarkPro";
+  font-weight: 900;
+}
+
+.ninth-sec .container .text-div * {
+    width: 95%;
+}
+
+.ninth-sec .container .text-div span {
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  color: #fff;
+}
+
+.ninth-sec .container .text-div .h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Kepler Std";
+  font-weight: 100;
+}
+
+.ninth-sec .container .text-div button {
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #205c40;
+  padding: 15px 50px;
+  border-radius: 5px;
+  font-weight: 600;
+  width: fit-content;
+  transition: 0.1s linear;
+}
+
+.ninth-sec .container .text-div button:hover {
+  background: #017a6c;
+  color: #fff;
+}
+
+.ninth-sec .container .text-div p {
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1.1px;
+  width: 80%;
+}

@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Kepler Std";
+  src: url("../../../fonts/kepler-std-3-cdnfonts/KeplerStdMedium.otf"); /* Check the path to the font file */
+  /* Add additional src lines for other font weights/styles if needed */
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("../../../fonts/MARKPROLIGHT.OTF"); /* Check the path to the font file */
+  /* Add additional src lines for other font weights/styles if needed */
+}
+
+.hero {
+  height: 100vh;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  overflow: hidden;
+  display: flex;
+  background: red;
+}
+
+.swiper-slide {
+  width: 50% !important;
+  display: flex !important;
+  overflow: hidden;
+  align-items: center;
+}
+
+.control-div {
+  height: 70%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.home-text {
+  background: transparent !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  height: 75%;
+  border-radius: 20px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.home-text .heading {
+  font-size: 50px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.home-text .heading-2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 1.1px;
+  font-family: "MarkPro";
+}
+
+.btn {
+  padding: 0.8rem 4rem;
+  background: #fff;
+  color: #205c40;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family: "MarkPro";
+}
+
+.btn:hover {
+  background: #418062;
+  transition: 0.3s ease;
+  color: #fff;
+}

@@ -1,0 +1,71 @@
+.fifth-sec {
+  background: #eae1d2;
+  color: #293927;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifth-sec .container {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifth-sec .container .left-div {
+  background-position: center !important;
+  background-size: cover !important;
+  flex: 0.5;
+  display: flex;
+  align-self: center;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.fifth-sec .container .right-div-container {
+  flex: 0.45;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.fifth-sec .container .right-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.fifth-sec .container .right-div .btn {
+  border: none;
+  background: #fff;
+  color: #16402d;
+  font-weight: 900;
+  box-shadow: 2px 2px 3px #0006;
+}
+
+.top {
+  font-family: "MarkPro";
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.tittle {
+  font-size: 36px;
+  font-family: "Kepler Std";
+  font-weight: normal;
+  color: #16402d;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "MarkPro";
+  font-weight: normal;
+  color: #524f4f;
+}

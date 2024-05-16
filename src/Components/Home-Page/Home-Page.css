@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Kepler Std";
+  src: url("../../fonts/kepler-std-3-cdnfonts/KeplerStdMedium.otf"); /* Check the path to the font file */
+  /* Add additional src lines for other font weights/styles if needed */
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("../../fonts/MARKPROLIGHT.OTF"); /* Check the path to the font file */
+  /* Add additional src lines for other font weights/styles if needed */
+}
+
+.Home {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Kepler Std";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 80px;
+}
