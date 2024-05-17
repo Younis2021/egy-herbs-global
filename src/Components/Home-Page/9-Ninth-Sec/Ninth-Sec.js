@@ -1,18 +1,20 @@
 import React from "react";
 import "./Ninth.css";
+import { HomePageData } from "../Home-Page-Data/Home-Page-Data";
 
 export default function NinthSec() {
+  const ninthSecContent = HomePageData.map((item) => item.NinthSec)[0];
+
   return (
-    <div className="ninth-sec">
+    <div
+      className="ninth-sec"
+      style={{ background: `url(${ninthSecContent.backgroundImage})` }}>
       <div className="container">
         <div className="text-div">
-          <span>DISCOVER THE GAIA DIFFERENCE</span>
-          <span className="h1">Connecting People, Plants & Planet to Create Healing</span>
-          <p>
-            Since Gaia Herbs was just a seedling in 1987, we have remained true
-            to our purpose to help people nurture their health with nature.
-          </p>
-          <button>LEARN MORE</button>
+          <span>{ninthSecContent.spans.span1}</span>
+          <span className="h1">{ninthSecContent.spans.span2} </span>
+          <p>{ninthSecContent.p}</p>
+          <button>{ninthSecContent.button}</button>
         </div>
       </div>
     </div>

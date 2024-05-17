@@ -21,6 +21,7 @@ import seventhcardIcon3 from "../../../img/tt_3_x1202.png";
 import seventhcardIcon4 from "../../../img/tt_4_x1202.png";
 import EighthSecImg1 from "../../../img/Facilities-83_1_1_700x2.jpg";
 import EighthSecImg2 from "../../../img/Facilities-83_1_1_700x2.jpg";
+import NinthSecImg from "../../../img/Burdock_1103_3440x2x.progressive2.jpg";
 
 export const HomePageData = [
   {
@@ -282,5 +283,41 @@ export const HomePageData = [
         },
       ],
     },
+    NinthSec: {
+      backgroundImage: NinthSecImg,
+      spans: {
+        span1: "DISCOVER THE GAIA DIFFERENCE",
+        span2: "Connecting People, Plants & Planet to Create Healing",
+      },
+      p: "Since Gaia Herbs was just a seedling in 1987, we have remained true to our purpose to help people nurture their health with nature. ",
+      button: "LEARN MORE",
+    },
+    TenthSec: [
+      {
+        id: 1,
+        cardImage: seventhcardIcon1,
+        tittle: "Plant-Powered",
+        p: "Harnessing traditional wisdom, delivering Nature’s vitality",
+      },
+      {
+        id: 2,
+        cardImage: seventhcardIcon1,
+        tittle: "Plant-Powered",
+        p: "Full spectrum formulas for an herb’s full array of beneficial",
+      },
+      {
+        id: 3,
+        cardImage: seventhcardIcon1,
+        tittle: "Purity-Tested",
+        p: "All products are screened for pesticides, microbes & heavy metals",
+      },
+      {
+        id: 4,
+        cardImage: seventhcardIcon1,
+        tittle: "From Seed to Shelf",
+        Link: "Meet Your Herbs",
+        p: `${this.Link} Know what’s in your supplement— Meet Your Herbs to learn more`,
+      },
+    ],
   },
 ];

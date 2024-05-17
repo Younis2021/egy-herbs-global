@@ -1,8 +1,6 @@
 .ninth-sec {
-  background: url("../../../img/Burdock_1103_3440x2x.progressive2.jpg");
-  background-position: bottom
-  ;
-  background-size: cover;
+  background-position: bottom !important;
+  background-size: cover !important;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -32,7 +30,7 @@
 }
 
 .ninth-sec .container .text-div * {
-    width: 95%;
+  width: 95%;
 }
 
 .ninth-sec .container .text-div span {
