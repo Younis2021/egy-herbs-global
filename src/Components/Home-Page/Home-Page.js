@@ -47,6 +47,7 @@ export default function Home() {
         spans={ninthSecContent.spans}
         p={ninthSecContent.p}
         button={ninthSecContent.button}
+        link={ninthSecContent.link}
       />
       <TenthSec />
       <Footer />

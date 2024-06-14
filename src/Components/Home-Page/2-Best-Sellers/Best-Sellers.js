@@ -6,6 +6,7 @@ import "swiper/swiper-bundle.css";
 import { BiSolidStar } from "react-icons/bi";
 import "./Best-Sellers.css";
 import { HomePageData } from "../Home-Page-Data/Home-Page-Data";
+import { Link } from "react-router-dom";
 
 export default function BestSellers() {
   const StarRating = ({ rating }) => {
@@ -70,7 +71,7 @@ export default function BestSellers() {
                     <Reviewing reviews={[card.cardDetails.reviewing]} />
                   </div>
                   <Pricing prices={[card.cardDetails.pricing]} />
-                  <button>{card.button}</button>
+                  <Link to={card.link} className="button">{card.button}</Link>
                 </div>
               </div>
             ))}

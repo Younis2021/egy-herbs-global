@@ -7,6 +7,7 @@ import Header from "./Components/Header/Header";
 import HomePage from "./Components/Home-Page/Home-Page";
 import ProductPage from "./Components/Product-Page/Product-Page";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 
 export default function App() {
   const location = useLocation();
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<ProductPage />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </>

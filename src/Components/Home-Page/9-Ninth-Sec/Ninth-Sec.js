@@ -1,8 +1,9 @@
 // NinthSec.js
 import React from "react";
 import "./Ninth.css";
+import { Link } from "react-router-dom";
 
-export default function NinthSec({ backgroundImage, spans, p, button }) {
+export default function NinthSec({ backgroundImage, spans, p, button, link }) {
   return (
     <div
       className="ninth-sec"
@@ -12,7 +13,7 @@ export default function NinthSec({ backgroundImage, spans, p, button }) {
           {spans && <span>{spans.span1}</span>}
           <span className="h1">{spans.span2}</span>
           <p>{p}</p>
-          {button && <button>{button}</button>}
+          {button && <Link className="btn" to={link}>{button}</Link>}
         </div>
       </div>
     </div>

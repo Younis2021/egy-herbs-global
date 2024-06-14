@@ -37,7 +37,7 @@ export const HomePageData = [
       },
       button: {
         text: "DEACOVER",
-        link: "/",
+        link: "/products",
       },
     },
 
@@ -48,7 +48,7 @@ export const HomePageData = [
           id: 1,
           cardImage: cardImage1,
           cardText: {
-            span: "Foundation Support",
+            span: "Foundation Herbs",
             h2: "Turmeric Supreme® Extra Strength",
           },
           cardDetails: {
@@ -56,13 +56,14 @@ export const HomePageData = [
             reviewing: 302,
             pricing: 30.99,
           },
-          button: "ADD TO CART",
+          button: "MORE DETAILS",
+          link: "/products",
         },
         {
           id: 2,
           cardImage: cardImage2,
           cardText: {
-            span: "Foundation Support",
+            span: "Foundation Herbs",
             h2: "Another Product Name",
           },
           cardDetails: {
@@ -70,13 +71,14 @@ export const HomePageData = [
             reviewing: 250,
             pricing: 25.99,
           },
-          button: "ADD TO CART",
+          button: "MORE DETAILS",
+          link: "/products",
         },
         {
           id: 3,
           cardImage: cardImage3,
           cardText: {
-            span: "Foundation Support",
+            span: "Foundation Herbs",
             h2: "Yet Another Product",
           },
           cardDetails: {
@@ -84,13 +86,14 @@ export const HomePageData = [
             reviewing: 150,
             pricing: 19.99,
           },
-          button: "ADD TO CART",
+          button: "MORE DETAILS",
+          link: "/products",
         },
         {
           id: 4,
           cardImage: cardImage4,
           cardText: {
-            span: "Foundation Support",
+            span: "Foundation Herbs",
             h2: "New Product Name",
           },
           cardDetails: {
@@ -98,13 +101,14 @@ export const HomePageData = [
             reviewing: 350,
             pricing: 35.99,
           },
-          button: "ADD TO CART",
+          button: "MORE DETAILS",
+          link: "/products",
         },
         {
           id: 5,
           cardImage: cardImage5,
           cardText: {
-            span: "Foundation Support",
+            span: "Foundation Herbs",
             h2: "Popular Product",
           },
           cardDetails: {
@@ -112,13 +116,14 @@ export const HomePageData = [
             reviewing: 280,
             pricing: 29.99,
           },
-          button: "ADD TO CART",
+          button: "MORE DETAILS",
+          link: "/products",
         },
         {
           id: 6,
           cardImage: cardImage6,
           cardText: {
-            span: "Foundation Support",
+            span: "Foundation Herbs",
             h2: "Bestseller Product",
           },
           cardDetails: {
@@ -126,7 +131,8 @@ export const HomePageData = [
             reviewing: 400,
             pricing: 39.99,
           },
-          button: "ADD TO CART",
+          button: "MORE DETAILS",
+          link: "/products",
         },
       ],
     },
@@ -137,14 +143,17 @@ export const HomePageData = [
         h1: "Not Sure Where To Start?",
         paragraph: {
           p1: "LET EGY HERBS GLOBAL BE YOUR GUIDE",
-          p2: "Navigating the vast array of herbs and spices in the agricultural market can be daunting. At Egy Herbs Global, we understand the challenges you face in finding the right products for your needs. That's why we've crafted a concise yet comprehensive quiz designed to simplify your journey.",
+          p2: "Navigating the vast array of herbs and spices in the agricultural market can be daunting. At Egy Herbs Global, we understand the challenges you face in finding the right products for your needs. That's why we're improving out products quality to simplify your journey.",
         },
       },
-      button: "TAKE THE LOOK",
+      button: {
+        text: "TAKE A LOOK",
+        link: "/products",
+      },
     },
 
     ForthSec: {
-      title: "Over 16,000 5 - Star Reviews For Our Award-Winning Products",
+      title: "Thousands 5 - Star Reviews For Our Products",
       newsLetterCards: [
         {
           id: 1,
@@ -163,7 +172,7 @@ export const HomePageData = [
         {
           id: 3,
           cardImage: newsLetterCardImage2,
-          span: "Brain Cognitive Support",
+          span: "spices Collection",
           span2: "Shop All",
           h2: "Best Supplement Ever!",
           p: "I love this selection of herbs! I noticed a significant improvement in my agricultural yields within just a few days of use. It's like my crops are thriving like never before .",
@@ -298,11 +307,12 @@ export const HomePageData = [
     NinthSec: {
       backgroundImage: NinthSecImg,
       spans: {
-        span1: "DISCOVER THE GAIA DIFFERENCE",
+        span1: "DISCOVER THE EGHGL. DIFFERENCE",
         span2: "Connecting People, Plants & Planet to Create Healing",
       },
-      p: "Since Gaia Herbs was just a seedling in 1987, we have remained true to our purpose to help people nurture their health with nature. ",
+      p: "Since Egy Herbs Global was just a seedling in 1987, we have remained true to our purpose to help people nurture their health with nature. ",
       button: "LEARN MORE",
+      link: "/about"
     },
 
     TenthSec: [
@@ -373,7 +383,7 @@ export const HomePageData = [
         },
       ],
       LowerDiv: {
-        p1: "© 2024 Egy Herbs All Rights Reserved .",
+        p1: "© 2024 Egy Herbs All Rights Reserved",
         p2: "Privacy policy",
         p3: "Terms of service",
       },

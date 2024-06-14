@@ -1,9 +1,7 @@
 .third-sec {
-  background: linear-gradient(
-    90deg,
-    rgba(240, 238, 227, 1) 100%,
-    rgba(229, 211, 251, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(240, 238, 227, 1) 100%,
+      rgba(229, 211, 251, 1) 100%);
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -37,13 +35,6 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-}
-
-.third-sec .container .right-div .btn {
-  border: none;
-  background: #fff;
-  color: #16402d;
-  font-weight: 900;
 }
 
 .top {

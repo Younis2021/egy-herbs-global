@@ -105,10 +105,12 @@
   flex: 0.3;
 }
 
-.details button {
+.details .button {
   cursor: pointer;
   background: transparent;
   outline: none;
+  text-decoration: none;
+  text-align: center;
   border: 1px solid #16402d;
   color: #16402d;
   border-radius: 8px;
@@ -119,7 +121,7 @@
   transition: 0.2s linear;
 }
 
-.details button:hover {
+.details .button:hover {
   background: #16402d;
   color: #fff;
 }

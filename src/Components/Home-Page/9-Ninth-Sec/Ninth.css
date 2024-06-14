@@ -46,23 +46,8 @@
   font-weight: 100;
 }
 
-.ninth-sec .container .text-div button {
-  background: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  color: #205c40;
-  padding: 15px 50px;
-  border-radius: 5px;
-  font-weight: 600;
+.ninth-sec .container .text-div .btn {
   width: fit-content;
-  transition: 0.1s linear;
-}
-
-.ninth-sec .container .text-div button:hover {
-  background: #017a6c;
-  color: #fff;
 }
 
 .ninth-sec .container .text-div p {
