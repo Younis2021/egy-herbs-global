@@ -10,7 +10,7 @@
   /* Add additional src lines for other font weights/styles if needed */
 }
 
-.Products {
+.About {
   width: 100%;
   overflow: hidden;
   font-family: "Kepler Std";
@@ -20,33 +20,29 @@
   gap: 80px;
 }
 
-.Products .ninth-sec .container {
-  height: 100%;
+.About .container {
+  height: 50%;
   width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
 }
 
-.Products .ninth-sec .container .text-div {
-  background: none;
+.About .ninth-sec .container .text-div {
+  background: #0009;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-  width: 100%;
-  height: 70%;
+  width: 70%;
+  height: 90%;
 }
 
-.ninth-sec .container .text-div p {
-  font-size: 16px;
-}
-
-.Products .ninth-sec {
+.About .ninth-sec {
   background-position: bottom !important;
   background-size: cover !important;
-  height: 60vh;
+  height: 92vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-self: flex-end;
+  padding-top: 100px;
 }

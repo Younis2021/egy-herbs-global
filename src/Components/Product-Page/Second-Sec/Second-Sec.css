@@ -1,0 +1,89 @@
+.Products .Second-Sec {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Products .Second-Sec .container */
+
+.Products .Second-Sec .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.Products .Second-Sec .container .left-nav {
+  flex: 0.2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  font-family: "MarkPro";
+  font-weight: bolder !important;
+  font-size: 14px;
+  color: #16402d;
+}
+
+.Products .Second-Sec .container .left-nav .price-range {
+  flex: 0.3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Products .Second-Sec .container .left-nav .price-range div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Products .Second-Sec .container .left-nav .price-range div input {
+  flex: 0.1;
+  height: 100%;
+}
+
+.Products .Second-Sec .container .left-nav .type {
+  flex: 0.6;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top: 1.5px solid #dadcd6;
+}
+
+.Products .Second-Sec .container .left-nav .type .link {
+  border: none;
+  border-left: 5px solid transparent;
+  width: 100%;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.Products .Second-Sec .container .left-nav .type .link:hover {
+  border-left: 5px solid #16402d;
+}
+
+.Products .Second-Sec .container .left-nav .category {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Kepler Std";
+}
+
+.Products .Second-Sec .container .right-div {
+  background: violet;
+  flex: 0.7;
+}
+
+.Products .Second-Sec .container p {
+  font-size: 16px;
+  font-family: "MarkPro";
+  line-height: 24px;
+}

@@ -12,6 +12,7 @@ import EighthsSec from "./8-Eighths-sec/Eighths-sec";
 import NinthSec from "./9-Ninth-Sec/Ninth-Sec";
 import TenthSec from "./10-Tenth-Sec/Tenth-Sec";
 import Footer from "./11-Footer/Footer";
+import { HomePageData } from "./Home-Page-Data/Home-Page-Data";
 
 export default function Home() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -27,9 +28,8 @@ export default function Home() {
     setIsVideoPlaying(!isVideoPlaying);
   };
 
-  // Find the data for the fourth section
+  const ninthSecContent = HomePageData[0].NinthSec;
 
-  // Render the components
   return (
     <div className="Home">
       <Hero />
@@ -42,7 +42,12 @@ export default function Home() {
       <SixthSec />
       <SeventhSec />
       <EighthsSec />
-      <NinthSec />
+      <NinthSec
+        backgroundImage={ninthSecContent.backgroundImage}
+        spans={ninthSecContent.spans}
+        p={ninthSecContent.p}
+        button={ninthSecContent.button}
+      />
       <TenthSec />
       <Footer />
     </div>

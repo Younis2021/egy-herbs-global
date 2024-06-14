@@ -1,13 +1,13 @@
-// Best-Sellers.js
-
+// Product-Card.js
+import { BiSolidStar } from "react-icons/bi";
+import "./Product-Card.css";
 import React, { useEffect, useRef } from "react";
 import Swiper from "swiper";
 import "swiper/swiper-bundle.css";
-import { BiSolidStar } from "react-icons/bi";
-import "./Best-Sellers.css";
-import { HomePageData } from "../Home-Page-Data/Home-Page-Data";
+import { HomePageData } from "../../Home-Page/Home-Page-Data/Home-Page-Data";
+import { useState } from "react";
 
-export default function BestSellers() {
+export default function ProductCard() {
   const StarRating = ({ rating }) => {
     const stars = [];
     for (let i = 0; i < rating; i++) {
@@ -36,31 +36,32 @@ export default function BestSellers() {
 
   useEffect(() => {
     swiperRef.current = new Swiper(".sec-sec", {
-      spaceBetween: 30,
+      spaceBetween: 0,
       centeredSlides: true,
+      mousewheel: true, // Allow mousewheel scrolling
     });
   }, []);
 
-  const bestSellersContents = HomePageData.map((item) => item.BestSellers);
+  const [hoveredCardIndex, setHoveredCardIndex] = useState(null);
 
+  const bestSellersContents = HomePageData.map((item) => item.BestSellers);
 
   return (
     <div className="best-sellers">
       {bestSellersContents.map((bestSellersContent, index) => (
         <div className="swiper-container sellers sec-sec" key={index}>
-          <div className="heading">
-            <h3>{bestSellersContent.title}</h3>
-          </div>
-
           <div className="swiper-wrapper ss">
             {/* Repeat structure for each card */}
             {bestSellersContent.cards.map((card, cardIndex) => (
-              <div className="swiper-slide card" key={cardIndex}>
+              <div
+                className="swiper-slide card"
+                key={cardIndex}
+                onMouseEnter={() => setHoveredCardIndex(cardIndex)}
+                onMouseLeave={() => setHoveredCardIndex(null)}>
                 <div className="card-image">
                   <img src={card.cardImage} alt="" />
                 </div>
                 <div className="card-text">
-                  <span>{card.cardText.span}</span>
                   <h2>{card.cardText.h2}</h2>
                 </div>
                 <div className="details">
@@ -69,8 +70,14 @@ export default function BestSellers() {
                     {/* Add star rating component */}
                     <Reviewing reviews={[card.cardDetails.reviewing]} />
                   </div>
+                  <span>{card.cardText.span}</span>
                   <Pricing prices={[card.cardDetails.pricing]} />
-                  <button>{card.button}</button>
+                  <button
+                    style={{
+                      opacity: hoveredCardIndex === cardIndex ? 1 : 0,
+                    }}>
+                    {card.button}
+                  </button>
                 </div>
               </div>
             ))}

@@ -1,0 +1,119 @@
+.Products .best-sellers {
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+}
+
+.Products .swiper-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.Products .card {
+  width: 30% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px !important;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.Products .card-image {
+  flex: 0.8;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d7ccbc4f;
+}
+
+.Products .card-image img {
+  width: 80%;
+}
+
+.Products .card-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 0.1;
+}
+
+.Products .card-text span {
+  font-family: "MarkPro";
+  color: #16402d;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.Products.card-text h2 {
+  font-family: "MarkPro";
+  color: #16402d;
+  font-size: 18px;
+}
+
+.Products.details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 0.1;
+}
+
+.Products .details div:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Products.details .rating {
+  flex: 0.3;
+  display: flex;
+  column-gap: 5px;
+  font-size: 17px;
+}
+
+.Products .details .pricing {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.03125rem;
+  color: #16402d;
+  font-family: "MarkPro";
+  font-weight: 600;
+  flex: 0.3;
+}
+
+.Products .details .reviewing {
+  font-size: 12px;
+  font-weight: 400;
+  color: #16402d;
+  font-family: "MarkPro";
+  font-weight: 900;
+  flex: 0.5;
+}
+
+.Products .details button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-size: 15px;
+  font-family: "MarkPro";
+  font-weight: 400;
+  color: #fff;
+  border-color: #356a4c;
+  background-color: #356a4c;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}

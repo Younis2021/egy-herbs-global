@@ -1,0 +1,25 @@
+import React from "react";
+import NinthSec from "../Home-Page/9-Ninth-Sec/Ninth-Sec";
+import { AboutData } from "./AboutData/AboutData";
+import "./About.css";
+import SecondSec from "./Second-Sec/Second-Sec";
+import ThirdSec from "./Third-Sec/Third-Sec";
+import ForthSec from "./Forth-Sec/Forth-Sec";
+
+export default function About() {
+  const aboutContent = AboutData.map((item) => item.Hero)[0];
+
+  return (
+    <div className="About">
+      <NinthSec
+        backgroundImage={aboutContent.backgroundImage}
+        spans={aboutContent.spans}
+        p={aboutContent.p}
+      />
+      <ForthSec />
+      <SecondSec />
+      <ThirdSec />
+      <SecondSec />
+    </div>
+  );
+}

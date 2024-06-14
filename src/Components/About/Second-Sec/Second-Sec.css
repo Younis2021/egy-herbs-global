@@ -1,0 +1,45 @@
+.Second-Sec {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Second-Sec .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 65%;
+  height: 90%;
+  gap: 20px;
+  border-bottom: 3px solid #eee;
+  padding: 20px 0;
+}
+
+.Second-Sec .container .img-div {
+  width: 100%;
+  flex: 0.7;
+  background-size: cover !important;
+}
+
+.Second-Sec .container .text-div {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+}
+
+.Second-Sec .container .h1 {
+  font-size: 35px;
+  font-family: "Kepler Std";
+  font-weight: 100;
+}
+.Second-Sec .container p {
+  font-size: 16px;
+  font-family: "MarkPro";
+  line-height: 24px;
+}

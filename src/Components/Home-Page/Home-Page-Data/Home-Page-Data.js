@@ -22,6 +22,10 @@ import seventhcardIcon4 from "../../../img/tt_4_x1202.png";
 import EighthSecImg1 from "../../../img/Facilities-83_1_1_700x2.jpg";
 import EighthSecImg2 from "../../../img/Facilities-83_1_1_700x2.jpg";
 import NinthSecImg from "../../../img/Burdock_1103_3440x2x.progressive2.jpg";
+import tenththcardIcon1 from "../../../img/Plant-Powered_200x200_636e8e8d-2bc4-4b8b-b141-93261da0f38a_100x2.png";
+import tenththcardIcon2 from "../../../img/Potent_200x200_ad8fbab8-d58c-48a0-a1a1-b1d2d742fde9_100x2.png";
+import tenththcardIcon3 from "../../../img/Pure_200x200_d28e4a8d-f3ee-4849-b2f7-8e97aff720ba_100x2.png";
+import tenththcardIcon4 from "../../../img/Transparent_200x200_50b320a8-5626-43da-8ce3-43eb97747cbf_100x2.png";
 
 export const HomePageData = [
   {
@@ -36,6 +40,7 @@ export const HomePageData = [
         link: "/",
       },
     },
+
     BestSellers: {
       title: "Shop Best Sellers",
       cards: [
@@ -125,6 +130,7 @@ export const HomePageData = [
         },
       ],
     },
+
     ThirdSec: {
       backGroundImg: thidSecImg,
       text: {
@@ -136,6 +142,7 @@ export const HomePageData = [
       },
       button: "TAKE THE LOOK",
     },
+
     ForthSec: {
       title: "Over 16,000 5 - Star Reviews For Our Award-Winning Products",
       newsLetterCards: [
@@ -192,6 +199,7 @@ export const HomePageData = [
         },
       ],
     },
+
     FifhSec: {
       backGroundImg: fifthSecImg,
       backGroundStiker: fifthSecStiker,
@@ -205,6 +213,7 @@ export const HomePageData = [
       },
       button: "UNDERSTAND OUR IMPACT",
     },
+
     SixthSec: {
       backGroundImg: sixthSecImg,
       text: {
@@ -218,6 +227,7 @@ export const HomePageData = [
       },
       button: "ADD TO CART",
     },
+
     SeventhSec: {
       title: "Why Egy Herbs Global ?",
       Cards: [
@@ -251,6 +261,7 @@ export const HomePageData = [
         },
       ],
     },
+
     EighththSec: {
       title: {
         span1: "OUR BLOG",
@@ -283,6 +294,7 @@ export const HomePageData = [
         },
       ],
     },
+
     NinthSec: {
       backgroundImage: NinthSecImg,
       spans: {
@@ -292,32 +304,79 @@ export const HomePageData = [
       p: "Since Gaia Herbs was just a seedling in 1987, we have remained true to our purpose to help people nurture their health with nature. ",
       button: "LEARN MORE",
     },
+
     TenthSec: [
       {
         id: 1,
-        cardImage: seventhcardIcon1,
+        cardImage: tenththcardIcon1,
         tittle: "Plant-Powered",
         p: "Harnessing traditional wisdom, delivering Nature’s vitality",
       },
       {
         id: 2,
-        cardImage: seventhcardIcon1,
+        cardImage: tenththcardIcon2,
         tittle: "Plant-Powered",
         p: "Full spectrum formulas for an herb’s full array of beneficial",
       },
       {
         id: 3,
-        cardImage: seventhcardIcon1,
+        cardImage: tenththcardIcon3,
         tittle: "Purity-Tested",
         p: "All products are screened for pesticides, microbes & heavy metals",
       },
       {
         id: 4,
-        cardImage: seventhcardIcon1,
+        cardImage: tenththcardIcon4,
         tittle: "From Seed to Shelf",
         Link: "Meet Your Herbs",
-        p: `${this.Link} Know what’s in your supplement— Meet Your Herbs to learn more`,
+        p: `Know what’s in your supplement— Meet Your Herbs to learn more`,
       },
     ],
+
+    Footer: {
+      UpperDiv: [
+        {
+          id: 1,
+          h1: "Contact US",
+          span: "Egypt - Fayoum – Ibshaway – Elbahr Elgedeed St",
+          phone: +201013476272,
+          mail: "info@egyherbsglobal-eg.com@gmail.com",
+        },
+        {
+          id: 2,
+          h1: "Featured Links",
+          Links: {
+            link1: "Our People",
+            link2: "Latest Media",
+            link3: "Our Branches",
+            link4: "Organisations",
+          },
+        },
+        {
+          id: 3,
+          h1: "Newsletter",
+          span: "Get in your inbox the latest News and",
+          span2:
+            "Subscribe and get our weekly newsletter We'll never share your email address",
+          phone: +201013476272,
+        },
+        {
+          id: 4,
+          h1: "Quick Links",
+          Links: {
+            link1: "Home",
+            link2: "About",
+            link3: "Products",
+            link4: "Contact",
+            link5: "Certiication",
+          },
+        },
+      ],
+      LowerDiv: {
+        p1: "© 2024 Egy Herbs All Rights Reserved .",
+        p2: "Privacy policy",
+        p3: "Terms of service",
+      },
+    },
   },
 ];

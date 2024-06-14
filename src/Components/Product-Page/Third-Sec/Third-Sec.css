@@ -1,0 +1,48 @@
+.Third-Sec {
+  background: #205c40;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Third-Sec .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+
+.Third-Sec .container .left-div {
+  flex: 0.3;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Third-Sec .container .left-div img {
+  width: 50%;
+}
+
+.Third-Sec .container .right-div {
+  flex: 0.6;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.Third-Sec .container .right-div .h2 {
+  font-size: 35px;
+}
+
+.Third-Sec .container .right-div p {
+  font-size: 16px;
+  font-family: "MarkPro";
+  line-height: 24px;
+  font-weight: 600;
+  width: 90%;
+}
