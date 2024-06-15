@@ -359,7 +359,7 @@ export const HomePageData = [
             link1: "Our People",
             link2: "Latest Media",
             link3: "Our Branches",
-            link4: "Organisations",
+            link4: "Organization",
           },
         },
         {
@@ -378,7 +378,7 @@ export const HomePageData = [
             link2: "About",
             link3: "Products",
             link4: "Contact",
-            link5: "Certiication",
+            link5: "Certification",
           },
         },
       ],
