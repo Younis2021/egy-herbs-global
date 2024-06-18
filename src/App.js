@@ -17,12 +17,14 @@ export default function App() {
       <GlobalStyle />
       <div className="App">
         <Header />
-        <Routes location={location}>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/products" element={<ProductPage />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <div className="page-div">
+          <Routes location={location}>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/products" element={<ProductPage />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
       </div>
     </>
   );

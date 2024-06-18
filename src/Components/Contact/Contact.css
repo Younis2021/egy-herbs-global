@@ -1,0 +1,118 @@
+/*---------------------------------------
+  CONTACT              
+-----------------------------------------*/
+.contact {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Kepler Std";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.contact .ninth-sec {
+  background-position: bottom !important;
+  background-size: cover !important;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .ninth-sec .container {
+  height: 50%;
+  width: 50%;
+}
+
+.contact .ninth-sec .container .text-div {
+  background: #0009;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 65%;
+  height: 90%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.contact .ninth-sec .container .text-div * {
+  width: 90%;
+  line-height: 1.5;
+}
+
+.contact .ninth-sec .container .text-div :first-child {
+  display: none;
+}
+
+.contact .third-sec {
+  background: #fff;
+}
+
+.contact .third-sec .container {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #eaefec;
+}
+
+.contact .third-sec .container .left-div {
+  background-position: center !important;
+  background-size: cover !important;
+  flex: 0.5;
+  border-radius: 0;
+}
+
+.contact .third-sec .container .right-div-container {
+  flex: 0.45;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact .third-sec .container .right-div {
+  height: 70%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.contact .tittle {
+  font-size: 36px;
+  font-family: "Kepler Std";
+  font-weight: normal;
+  color: #16402d;
+}
+
+.contact .paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "MarkPro";
+  font-weight: 500;
+  color: #000000;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0.4;
+}
+.contact ul li {
+  width: 100%;
+}
+
+.contact .contact-third-link {
+  text-decoration: none;
+  color: green;
+  font-weight: 900;
+  font-size: 16px;
+  font-family: "MarkPro";
+}

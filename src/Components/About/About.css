@@ -20,6 +20,15 @@
   gap: 80px;
 }
 
+.About .ninth-sec {
+  background-position: bottom !important;
+  background-size: cover !important;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .About .container {
   height: 50%;
   width: 50%;
@@ -31,18 +40,20 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
-  width: 70%;
+  gap: 20px;
+  width: 65%;
   height: 90%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
-.About .ninth-sec {
-  background-position: bottom !important;
-  background-size: cover !important;
-  height: 92vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-self: flex-end;
-  padding-top: 100px;
+.About .ninth-sec .container .text-div * {
+  width: 95%;
+  line-height: 1.5;
+}
+
+.About .ninth-sec .container .text-div :first-child {
+  display: none;
 }

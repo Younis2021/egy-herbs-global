@@ -1,4 +1,10 @@
 .App {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-div {
+  flex: 0.8;
+  margin-top: 140px;
 }

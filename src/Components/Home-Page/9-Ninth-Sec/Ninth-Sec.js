@@ -7,13 +7,18 @@ export default function NinthSec({ backgroundImage, spans, p, button, link }) {
   return (
     <div
       className="ninth-sec"
-      style={{ background: `url(${backgroundImage})` }}>
+      style={{ background: `url(${backgroundImage})` }}
+    >
       <div className="container">
         <div className="text-div">
           {spans && <span>{spans.span1}</span>}
           <span className="h1">{spans.span2}</span>
           <p>{p}</p>
-          {button && <Link className="btn" to={link}>{button}</Link>}
+          {button && (
+            <Link className="btn" to={link}>
+              {button}
+            </Link>
+          )}
         </div>
       </div>
     </div>

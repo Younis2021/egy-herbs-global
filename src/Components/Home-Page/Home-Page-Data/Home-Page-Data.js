@@ -139,17 +139,11 @@ export const HomePageData = [
 
     ThirdSec: {
       backGroundImg: thidSecImg,
-      text: {
-        h1: "Not Sure Where To Start?",
-        paragraph: {
-          p1: "LET EGY HERBS GLOBAL BE YOUR GUIDE",
-          p2: "Navigating the vast array of herbs and spices in the agricultural market can be daunting. At Egy Herbs Global, we understand the challenges you face in finding the right products for your needs. That's why we're improving out products quality to simplify your journey.",
-        },
-      },
-      button: {
-        text: "TAKE A LOOK",
-        link: "/products",
-      },
+      h1: "Not Sure Where To Start?",
+      p1: "LET EGY HERBS GLOBAL BE YOUR GUIDE",
+      p2: "Navigating the vast array of herbs and spices in the agricultural market can be daunting. At Egy Herbs Global, we understand the challenges you face in finding the right products for your needs. That's why we're improving out products quality to simplify your journey.",
+      buttonText: "TAKE A LOOK",
+      buttonLink: "/products",
     },
 
     ForthSec: {
@@ -312,7 +306,7 @@ export const HomePageData = [
       },
       p: "Since Egy Herbs Global was just a seedling in 1987, we have remained true to our purpose to help people nurture their health with nature. ",
       button: "LEARN MORE",
-      link: "/about"
+      link: "/about",
     },
 
     TenthSec: [

@@ -24,17 +24,21 @@ export default function Home() {
     }
   }, [isVideoPlaying]);
 
-  const handleVideoClick = () => {
-    setIsVideoPlaying(!isVideoPlaying);
-  };
-
   const ninthSecContent = HomePageData[0].NinthSec;
+  const thirdSecContent = HomePageData[0].ThirdSec;
 
   return (
     <div className="Home">
       <Hero />
       <BestSellers />
-      <ThirdSec />
+      <ThirdSec
+        backGroundImg={thirdSecContent.backGroundImg}
+        p1={thirdSecContent.p1}
+        h1={thirdSecContent.h1}
+        p2={thirdSecContent.p2}
+        link={thirdSecContent.buttonLink}
+        text={thirdSecContent.buttonText}
+      />
 
       <ForthSec />
 

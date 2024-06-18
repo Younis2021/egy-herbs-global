@@ -1,24 +1,44 @@
 import React from "react";
 import "./Third-Sec.css";
-import { HomePageData } from "../Home-Page-Data/Home-Page-Data";
 import { Link } from "react-router-dom";
 
-export default function ThirdSec() {
-  const thirdSecContent = HomePageData.map((item) => item.ThirdSec)[0];
+export default function ThirdSec({
+  backGroundImg,
+  p1,
+  h1,
+  p2,
+  link,
+  text,
+  navLinks,
+}) {
   return (
     <div className="third-sec">
       <div className="container">
         <div
           className="left-div"
-          style={{ background: `url(${thirdSecContent.backGroundImg})` }}></div>
+          style={{ background: `url(${backGroundImg})` }}
+        ></div>
         <div className="right-div-container">
           <div className="right-div">
-            <p className="top">{thirdSecContent.text.paragraph.p1}</p>
-            <h1 className="tittle">{thirdSecContent.text.h1}</h1>
-            <p className="paragraph">{thirdSecContent.text.paragraph.p2}</p>
-            <Link to={thirdSecContent.button.link} className="btn">
-              {thirdSecContent.button.text}
-            </Link>
+            {p1 && <p className="top">{p1}</p>}
+            <h1 className="tittle">{h1}</h1>
+            <p className="paragraph">{p2}</p>
+            {text && (
+              <Link to={link} className="btn">
+                {text}
+              </Link>
+            )}
+            {navLinks && (
+              <ul>
+                {navLinks.map(({ text, link }) => (
+                  <li>
+                    <Link to={link} className="contact-third-link">
+                      {text}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
       </div>
