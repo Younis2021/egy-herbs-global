@@ -37,7 +37,8 @@ export default function Footer() {
                         </span>
                         <Link
                           to="https://web.whatsapp.com/"
-                          className="footer-link">
+                          className="footer-link"
+                        >
                           {card.phone}
                         </Link>
                       </div>
@@ -47,7 +48,8 @@ export default function Footer() {
                         </span>
                         <Link
                           to="https://web.whatsapp.com/"
-                          className="footer-link">
+                          className="footer-link"
+                        >
                           {card.mail}
                         </Link>
                       </div>

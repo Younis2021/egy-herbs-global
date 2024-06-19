@@ -1,0 +1,107 @@
+.third-Sec {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-Sec .container {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third-Sec .container .left,
+.right {
+  flex: 0.5;
+  height: 100%;
+}
+
+.third-Sec .container .left {
+  background: #205c40;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-Sec .container .text-container {
+  overflow: hidden;
+  height: 70%;
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third-Sec .container .text-container .left-div-upper-text,
+.left-div-lower-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  flex: 0.45;
+  font-family: "MarkPro";
+  font-size: 16px;
+}
+
+.third-Sec .container .text-container .left-div-upper-text p:first-of-type {
+  font-weight: 900;
+}
+
+.third-Sec .container .text-container .left-div-upper-text * {
+  width: 100%;
+  line-height: 24px;
+}
+
+.third-Sec .container .text-container .left-div-lower-text .title {
+  width: 100%;
+  flex: 0.3;
+}
+.third-Sec
+  .container
+  .text-container
+  .left-div-lower-text
+  .right-lower-container {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third-Sec .container .text-container .left-div-lower-text div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex: 0.2;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.third-Sec
+  .container
+  .text-container
+  .left-div-lower-text
+  .right-lower-container
+  div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex: 0.2;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third-Sec .container .right {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}

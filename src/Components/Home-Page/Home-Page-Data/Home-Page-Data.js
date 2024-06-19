@@ -377,7 +377,7 @@ export const HomePageData = [
         },
       ],
       LowerDiv: {
-        p1: "© 2024 Egy Herbs All Rights Reserved",
+        p1: "© 2024 Egy Herbs All Rights Reserved.",
         p2: "Privacy policy",
         p3: "Terms of service",
       },

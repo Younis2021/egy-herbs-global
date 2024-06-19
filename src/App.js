@@ -8,6 +8,7 @@ import HomePage from "./Components/Home-Page/Home-Page";
 import ProductPage from "./Components/Product-Page/Product-Page";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
+import FloatingActionButton from "./Components/FloatingActionButton/Test";
 
 export default function App() {
   const location = useLocation();
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+        <FloatingActionButton />
       </div>
     </>
   );
