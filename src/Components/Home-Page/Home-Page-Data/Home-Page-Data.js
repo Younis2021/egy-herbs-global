@@ -46,6 +46,8 @@ export const HomePageData = [
       cards: [
         {
           id: 1,
+          y: 100,
+          delay: 0.2,
           cardImage: cardImage1,
           cardText: {
             span: "Foundation Herbs",
@@ -61,6 +63,8 @@ export const HomePageData = [
         },
         {
           id: 2,
+          y: -100,
+          delay: 0.4,
           cardImage: cardImage2,
           cardText: {
             span: "Foundation Herbs",
@@ -76,6 +80,8 @@ export const HomePageData = [
         },
         {
           id: 3,
+          y: 100,
+          delay: 0.2,
           cardImage: cardImage3,
           cardText: {
             span: "Foundation Herbs",
@@ -91,6 +97,8 @@ export const HomePageData = [
         },
         {
           id: 4,
+          y: -100,
+          delay: 0.4,
           cardImage: cardImage4,
           cardText: {
             span: "Foundation Herbs",
@@ -106,6 +114,8 @@ export const HomePageData = [
         },
         {
           id: 5,
+          delay: 0.2,
+          y: 100,
           cardImage: cardImage5,
           cardText: {
             span: "Foundation Herbs",
@@ -121,6 +131,8 @@ export const HomePageData = [
         },
         {
           id: 6,
+          y: -100,
+          delay: 0.4,
           cardImage: cardImage6,
           cardText: {
             span: "Foundation Herbs",

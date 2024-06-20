@@ -46,16 +46,18 @@
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
+ 
 }
 
 .newsletter-div .newsletter-card .newsletter-video {
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
-  flex: 0.9;
+  flex: 1 !important;
   background-position: center;
   background-size: cover;
   overflow: hidden;
+
 }
 
 iframe {
@@ -63,6 +65,8 @@ iframe {
   height: 100%;
   border-radius: 10px; /* Rounded corners */
   overflow: hidden;
+  outline: none ;
+  border: none ;
 }
 
 .newsletter-div .newsletter-card .third-image {

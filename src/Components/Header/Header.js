@@ -7,18 +7,21 @@ import {
   AiOutlineUser,
   AiOutlineShoppingCart,
 } from "react-icons/ai";
+import logo from "../../img/logo-1.jpg";
 
 export default function Header() {
   return (
     <div className="Header">
       <div className="container">
         <div className="nav-1-div">
-          <Link to="/" className="logo-link"></Link>
+          <Link to="/" className="logo-link">
+            <img src={logo} alt="" />
+          </Link>
           <nav className="navbar">
             <ul>
               <li>
                 <NavLink to="/products" className="link">
-                  PRODUCTS
+                  SHOP
                 </NavLink>
               </li>
               <li>
@@ -28,17 +31,25 @@ export default function Header() {
               </li>
               <li>
                 <NavLink to="/contact" className="link">
-                  MEET YOUR HERBS<span>®</span>
+                  MEET YOUR HERBS
                 </NavLink>
               </li>
             </ul>
           </nav>
         </div>
         <div className="profile-div">
-          <AiOutlineMail className="icon" />
-          <AiOutlineEnvironment className="icon" />
-          <AiOutlineUser className="icon" />
-          <AiOutlineShoppingCart className="icon" />
+          <Link className="icon-Link">
+            <AiOutlineMail className="icon" />
+          </Link>
+          <Link className="icon-Link">
+            <AiOutlineEnvironment className="icon" />
+          </Link>
+          <Link className="icon-Link">
+            <AiOutlineUser className="icon" />
+          </Link>
+          <Link className="icon-Link">
+            <AiOutlineShoppingCart className="icon" />
+          </Link>
         </div>
       </div>
     </div>

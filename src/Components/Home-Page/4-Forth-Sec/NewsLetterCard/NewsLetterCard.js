@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function NewsLetterCard({
   cardImage,
@@ -10,15 +12,40 @@ export default function NewsLetterCard({
   cardVideoUrl,
   cardVideoTittle,
 }) {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    // Remove triggerOnce to trigger animation every time the component enters view
+    threshold: 0.5, // Trigger when 50% of the component is in view
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("show");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
   return (
     // NewsletterCard.js
-    <div className="swiper-slide newsletter-card">
+    <motion.div
+      className="swiper-slide newsletter-card"
+      variants={{
+        hidden: { opacity: 0 },
+        show: { opacity: 1 },
+      }}
+      transition={{
+        duration: 0.6,
+        ease: "easeInOut",
+      }}
+    >
       {cardImage && (
         <div
           className="newsletter-img"
           style={{
             backgroundImage: `url(${cardImage})`,
-          }}></div>
+          }}
+        ></div>
       )}
       {cardImage && (
         <div className="newsletter-details">
@@ -36,9 +63,10 @@ export default function NewsLetterCard({
           <iframe
             title={cardVideoTittle}
             src={cardVideoUrl}
-            allowFullScreen></iframe>
+            allowFullScreen
+          ></iframe>
         </div>
       )}
-    </div>
+    </motion.div>
   );
 }

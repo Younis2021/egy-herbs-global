@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
 import GlobalStyle from "./GlobalStyles";
@@ -10,8 +10,14 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import FloatingActionButton from "./Components/FloatingActionButton/Test";
 
+
 export default function App() {
   const location = useLocation();
+
+  // useEffect(() => {
+  //   // This useEffect will run every time the route changes
+  //   window.scrollTo(0, 0);
+  // }, [location]);
 
   return (
     <>

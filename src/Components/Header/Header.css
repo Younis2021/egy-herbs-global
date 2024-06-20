@@ -1,12 +1,14 @@
 @font-face {
   font-family: "MarkPro";
-  src: url("../../fonts/MARKPROBOLD.OTF");
+  src: url("../../fonts/MARKPROMEDIUM.OTF") !important;
 }
 
 .Header {
   width: 100%;
   display: flex;
   justify-content: center;
+  justify-content: center;
+  align-items: center;
   background: #fcfbf9;
   box-shadow: 0 5px 16px #0000000a;
   transition: 0.5s;
@@ -15,54 +17,70 @@
   z-index: 1111;
   transition: top 0.25s ease-in-out, margin 0.25s ease-in-out,
     background 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  height: 140px;
 }
 
 .Header .container {
-  width: 100%;
+  flex: 0.8;
+  height: 50%;
   display: flex;
-  justify-content: space-evenly;
-  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-1-div {
   display: flex;
-  align-items: flex-end;
-  column-gap: 20px;
-  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0.5;
+  height: 100%;
 }
 
 .logo-link {
-  height: 120px;
-  width: 200px;
-  background-image: url("../../img/logo-1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  flex: 0.2;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-link img {
+  width: 100px;
+}
+
+.Header .navbar {
+  flex: 0.7;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #205c40;
 }
 
 .Header nav ul {
+  flex: 0.8;
+  height: 100%;
   display: flex;
-  column-gap: 3rem;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: red;
 }
 
 .Header nav ul li {
-  padding: 10px 0;
-}
-
-.navbar {
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  border-bottom: 2px solid transparent;
 }
 
 .link {
   color: #000;
-  letter-spacing: 0.5px;
-  line-height: 22px;
-  padding: 10px 0;
   border-bottom: 2px solid transparent;
   cursor: default;
   font-family: "MarkPro";
   font-weight: 900;
-  width: fit-content;
+  font-size: 14px;
 }
 
 .link:hover {
@@ -75,14 +93,23 @@
 
 .profile-div {
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
-  column-gap: 35px;
-  padding-bottom: 25px;
+  flex: 0.2;
+  height: 100%;
+}
+
+.profile-div .icon-Link {
+  flex: 0.2;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-div .icon {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 23px;
   color: #205c40;
 }
 
