@@ -57,7 +57,8 @@ export default function ProductCard() {
                 className="swiper-slide card"
                 key={cardIndex}
                 onMouseEnter={() => setHoveredCardIndex(cardIndex)}
-                onMouseLeave={() => setHoveredCardIndex(null)}>
+                onMouseLeave={() => setHoveredCardIndex(null)}
+              >
                 <div className="card-image">
                   <img src={card.cardImage} alt="" />
                 </div>
@@ -75,7 +76,8 @@ export default function ProductCard() {
                   <button
                     style={{
                       opacity: hoveredCardIndex === cardIndex ? 1 : 0,
-                    }}>
+                    }}
+                  >
                     {card.button}
                   </button>
                 </div>

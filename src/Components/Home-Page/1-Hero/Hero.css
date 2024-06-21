@@ -10,6 +10,11 @@
   /* Add additional src lines for other font weights/styles if needed */
 }
 
+@font-face {
+  font-family: "Afterglow";
+  src: url("../../../fonts/Afterglow-Regular.ttf");
+}
+
 .hero {
   height: 78vh;
   background-repeat: no-repeat !important;
@@ -53,9 +58,10 @@
 }
 
 .home-text .heading {
-  font-size: 50px;
+  font-size: 48px;
   font-weight: lighter;
   color: #fff;
+  font-family: "Afterglow";
 }
 
 .home-text .heading-2 {

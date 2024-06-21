@@ -14,22 +14,24 @@ export default function Header() {
     <div className="Header">
       <div className="container">
         <div className="nav-1-div">
-          <Link to="/" className="logo-link">
-            <img src={logo} alt="" />
-          </Link>
+          <div className="nav-logo-container">
+            <Link to="/" className="logo-link">
+              <img src={logo} alt="" />
+            </Link>
+          </div>
           <nav className="navbar">
             <ul>
-              <li>
+              <li className="li">
                 <NavLink to="/products" className="link">
                   SHOP
                 </NavLink>
               </li>
-              <li>
+              <li className="li">
                 <NavLink to="/about" className="link">
                   ABOUT
                 </NavLink>
               </li>
-              <li>
+              <li className="li">
                 <NavLink to="/contact" className="link">
                   MEET YOUR HERBS
                 </NavLink>

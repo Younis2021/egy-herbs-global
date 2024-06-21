@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
 
   :root {
-    --green-color: #3cb815;
+    --green-color: #183028;
     --light-green-color: #c0eb7b;
     --orange-color: #ff7e00;
     --light-orange-color: #ff7e00;

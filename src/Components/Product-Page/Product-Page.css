@@ -10,6 +10,12 @@
   /* Add additional src lines for other font weights/styles if needed */
 }
 
+@font-face {
+  font-family: "Afterglow";
+  src: url("../../fonts/Afterglow-Regular.ttf"); /* Check the path to the font file */
+  /* Add additional src lines for other font weights/styles if needed */
+}
+
 .Products {
   width: 100%;
   overflow: hidden;

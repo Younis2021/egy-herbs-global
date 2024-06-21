@@ -1,7 +1,9 @@
 .third-sec {
-  background: linear-gradient(90deg,
-      rgba(240, 238, 227, 1) 100%,
-      rgba(229, 211, 251, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 238, 227, 1) 100%,
+    rgba(229, 211, 251, 1) 100%
+  );
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -44,9 +46,9 @@
 }
 
 .tittle {
-  font-size: 36px;
-  font-family: "Kepler Std";
-  font-weight: normal;
+  font-size: 34px !important;
+  font-family: "Afterglow" !important;
+  font-weight: 100 !important;
   color: #16402d;
 }
 

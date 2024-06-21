@@ -3,7 +3,8 @@ import NinthSec from "../Home-Page/9-Ninth-Sec/Ninth-Sec";
 import { ProductsData } from "./ProductsData/ProductsData";
 import "./Product-Page.css";
 import SecondSec from "./Second-Sec/Second-Sec";
-import ThirdSec from "./Third-Sec/Third-Sec";
+import TenthSec from "../Home-Page/10-Tenth-Sec/Tenth-Sec";
+import Footer from "../Home-Page/11-Footer/Footer";
 
 export default function ProductPage() {
   const productsContent = ProductsData.map((item) => item.Hero)[0];
@@ -16,8 +17,8 @@ export default function ProductPage() {
         p={productsContent.p}
       />
       <SecondSec />
-      <ThirdSec />
-      <SecondSec />
+      <TenthSec />
+      <Footer />
     </div>
   );
 }

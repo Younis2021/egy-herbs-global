@@ -56,13 +56,14 @@
   font-weight: normal;
 }
 
-.Products.card-text h2 {
-  font-family: "MarkPro";
+.Products .card-text h2 {
+  font-family: "Kepler Std" !important;
   color: #16402d;
   font-size: 18px;
+  font-weight: 100;
 }
 
-.Products.details {
+.Products .details {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -76,7 +77,7 @@
   gap: 10px;
 }
 
-.Products.details .rating {
+.Products .details .rating {
   flex: 0.3;
   display: flex;
   column-gap: 5px;
