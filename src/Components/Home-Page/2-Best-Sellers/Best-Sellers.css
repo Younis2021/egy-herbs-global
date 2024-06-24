@@ -13,7 +13,7 @@
   gap: 50px;
 }
 
-.sellers .heading h3 {
+.home-sellers .heading h3 {
   font-size: 45px;
   font-family: "Afterglow";
   font-weight: 100;
@@ -28,6 +28,7 @@
   padding: 5px;
   height: 100% !important;
   cursor: pointer;
+  font-family: "MarkPro";
 }
 
 .card-image {
@@ -41,7 +42,7 @@
 }
 
 .card-image img {
-  width: 80%;
+  width: 70%;
 }
 
 .card-text {
@@ -63,6 +64,7 @@
   font-family: "MarkPro";
   color: #16402d;
   font-size: 18px;
+  font-weight: 200;
 }
 
 .details {
@@ -78,7 +80,6 @@
   gap: 10px;
 }
 
-
 .details .rating {
   flex: 0.3;
   display: flex;
@@ -88,11 +89,9 @@
 
 .details .pricing {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 0.03125rem;
   color: #16402d;
-  font-family: "MarkPro";
-  font-weight: 600;
   flex: 0.3;
 }
 
@@ -100,9 +99,9 @@
   font-size: 12px;
   font-weight: 400;
   color: #16402d;
-  font-family: "MarkPro";
-  font-weight: 900;
+  font-weight: 500;
   flex: 0.3;
+
 }
 
 .details .button {
@@ -116,8 +115,7 @@
   border-radius: 8px;
   padding: 10px 0;
   font-size: 15px;
-  font-family: "MarkPro";
-  font-weight: 600;
+  font-weight: 200;
   transition: 0.2s linear;
 }
 

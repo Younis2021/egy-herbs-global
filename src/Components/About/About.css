@@ -29,9 +29,21 @@
   align-items: center;
 }
 
-.About .container {
+.About .ninth-sec .glass {
+  background: transparent;
+  opacity: 1;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About .ninth-sec .container {
   height: 50%;
-  width: 50%;
+  flex: 0.5 !important;
+  justify-content: center;
+  align-items: center;
 }
 
 .About .ninth-sec .container .text-div {
@@ -42,7 +54,7 @@
   justify-content: center;
   gap: 20px;
   width: 65%;
-  height: 90%;
+  height: 85%;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;

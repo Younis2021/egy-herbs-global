@@ -9,16 +9,18 @@ export default function NinthSec({ backgroundImage, spans, p, button, link }) {
       className="ninth-sec"
       style={{ background: `url(${backgroundImage})` }}
     >
-      <div className="container">
-        <div className="text-div">
-          {spans && <span>{spans.span1}</span>}
-          <span className="h1">{spans.span2}</span>
-          <p>{p}</p>
-          {button && (
-            <Link className="btn" to={link}>
-              {button}
-            </Link>
-          )}
+      <div className="glass">
+        <div className="container">
+          <div className="text-div">
+            {spans && <span>{spans.span1}</span>}
+            <spans className="h1">{spans.span2}</spans>
+            <p>{p}</p>
+            {button && (
+              <Link className="btn" to={link}>
+                {button}
+              </Link>
+            )}
+          </div>
         </div>
       </div>
     </div>

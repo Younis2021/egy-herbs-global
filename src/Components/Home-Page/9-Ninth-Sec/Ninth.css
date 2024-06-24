@@ -15,6 +15,16 @@
   align-items: center;
 }
 
+.ninth-sec .glass {
+  background: transparent;
+  opacity: 1;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .ninth-sec .container .text-div {
   background: #0009;
   border-radius: 10px;

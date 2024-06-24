@@ -1,7 +1,7 @@
 import aboutHeroSecImg from "../../../img/our-story-hero_3440x2x.progressive.png2.jpg";
 import aboutSecondSecImg from "../../../img/high-angle-indian-spices-with-spoons-scaled.jpg";
 import aboutThirdSecImg from "../../../img/certified_72x.png";
-import aboutForthSecImg from "../../../img/logo-1.jpg";
+import aboutForthSecImg from "../../../img/logo-1.png";
 
 export const AboutData = [
   {

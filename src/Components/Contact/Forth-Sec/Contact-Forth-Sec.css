@@ -1,6 +1,6 @@
 .ContactForthSec {
-  height:80vh;
-  background: url("../../../img/gaia\ HERBS.png");
+  height: 80vh;
+  background: url("../../../img/gaia.png");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -19,10 +19,9 @@
 .ContactForthSec .container .text-container {
   background: #fff;
   flex: 0.5;
-  height: 65%;
+  height: 80%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background: #0009;
   color: #fff;
@@ -34,6 +33,13 @@
   -o-border-radius: 10px;
   font-family: "MarkPro";
   font-size: 18px;
+}
+
+.ContactForthSec .container .text-container div {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .ContactForthSec .container .text-container * {

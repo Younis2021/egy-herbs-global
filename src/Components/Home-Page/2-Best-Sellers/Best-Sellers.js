@@ -60,7 +60,7 @@ export default function BestSellers() {
   return (
     <div className="best-sellers">
       {bestSellersContents.map((bestSellersContent, index) => (
-        <div className="swiper-container sellers sec-sec" key={index}>
+        <div className="swiper-container sellers sec-sec home-sellers" key={index}>
           <div className="heading">
             <h3>{bestSellersContent.title}</h3>
           </div>

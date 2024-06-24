@@ -17,42 +17,79 @@
 }
 
 .Products {
-  width: 100%;
   overflow: hidden;
   font-family: "Kepler Std";
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 80px;
+  gap: 50px;
+}
+
+.Products .ninth-sec {
+  background-position: center !important;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products .ninth-sec .glass {
+  background: rgba(255, 255, 255, 0.4);
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Products .ninth-sec .container {
-  height: 100%;
-  width: 50%;
+  flex: 0.5 !important;
+  height: 100% !important;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .Products .ninth-sec .container .text-div {
-  background: none;
+  background: transparent;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-evenly;
   width: 100%;
-  height: 70%;
+  height: 90%;
+}
+
+.Products .ninth-sec .container .text-div :first-child {
+  display: none;
 }
 
 .ninth-sec .container .text-div p {
   font-size: 16px;
+  font-weight: 200;
 }
 
-.Products .ninth-sec {
-  background-position: bottom !important;
-  background-size: cover !important;
-  height: 60vh;
+.Products .ninth-sec .container {
+  flex: 0.5;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Products .ninth-sec .container .text-div * {
+  width: 85%;
+  opacity: 1;
+  color: #16402d;
+}
+
+.Products .ninth-sec .container .text-div .h1 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Kepler Std";
+  color: #16402d;
+}
+
+.ContactForthSec .container .text-div .btn {
+  background: #356a4c;
+  color: #fff;
 }

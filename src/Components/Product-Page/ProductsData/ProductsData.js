@@ -1,15 +1,16 @@
-import aboutHeroSecImg from "../../../img/anti-Inflammatory-diet-to-maintain-your-health.jpg";
+import aboutHeroSecImg from "../../../img/header31_1440x.png";
 import aboutThirdSecImg from "../../../img/certified_72x.png";
-import aboutForthSecImg from "../../../img/logo-1.jpg";
+import aboutForthSecImg from "../../../img/logo-1.png";
 
 export const ProductsData = [
   {
     Hero: {
       backgroundImage: aboutHeroSecImg,
       spans: {
-        span2: "Shop All Products",
+        span2: "All Products",
       },
-      p: "Discover the power of nature with Gaia Herbs' best-selling herbal supplements. From occasional stress relief to immune support, these trusted products are crafted with high-quality ingredients to promote holistic wellness. Shop our collection now and experience the benefits for yourself.",
+      p: "The support you want from high-quality, plant-based formulas you can trust—assured for purity, potency, and integrity.",
+      
     },
     SecondSec: {
       Left: {
@@ -28,7 +29,7 @@ export const ProductsData = [
       },
       Right: {},
     },
-    
+
     ThirdSec: {
       Left: {
         backgroundImage: aboutThirdSecImg,

@@ -16,6 +16,7 @@
   width: 80%;
   height: 100%;
   overflow: hidden;
+  border: none;
 }
 
 .Products .Second-Sec .container .left-nav {
@@ -78,8 +79,68 @@
 }
 
 .Products .Second-Sec .container .right-div {
-  background: violet;
   flex: 0.7;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products .Second-Sec .container .right-div .products-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Products .Second-Sec .container .right-div .products-container .over-div {
+  width: 95%;
+  flex: 0.1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Products .Second-Sec .container .right-div .products-container .over-div * {
+  font-size: 14px;
+}
+
+.over-right-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0.5;
+  height: 50%;
+}
+
+.over-right-div .sort-icon-div {
+  flex: 0.5;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.over-right-div .sort-icon-div span {
+  background: #16402d;
+  flex: 0.3;
+  height: 50%;
+}
+
+.Products
+  .Second-Sec
+  .container
+  .right-div
+  .products-container
+  .bellow-produvts-div {
+  flex: 0.9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden !important;
 }
 
 .Products .Second-Sec .container p {

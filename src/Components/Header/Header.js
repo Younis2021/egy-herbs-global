@@ -7,7 +7,7 @@ import {
   AiOutlineUser,
   AiOutlineShoppingCart,
 } from "react-icons/ai";
-import logo from "../../img/logo-1.jpg";
+import logo from "../../img/logo-1.png";
 
 export default function Header() {
   return (

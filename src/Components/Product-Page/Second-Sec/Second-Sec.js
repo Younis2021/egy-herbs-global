@@ -35,15 +35,22 @@ export default function SecondSec() {
           </div>
         </nav>
         <div className="right-div">
-          <div className="display-div">
-            <p className="produts-numbers">38 results found</p>
-            <div className="display-icons">
-              <span></span>
-              <span></span>
-            </div>
-          </div>
           <div className="products-container">
-            <ProductCard />
+            <div className="over-div">
+              <p className="over-left-p">
+                1-10 out of <span>198 results found in 0.001s</span>
+              </p>
+              <div className="over-right-div">
+                <p>Sorted by Relevance</p>
+                <div className="sort-icon-div">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div className="bellow-produvts-div">
+              <ProductCard />
+            </div>
           </div>
         </div>
       </div>

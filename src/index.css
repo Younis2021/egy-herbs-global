@@ -28,3 +28,67 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #16402d; /* You can change this to any color */
 }
+
+/* In your component CSS file, e.g., App.css */
+.light-font {
+  font-family: "MarkPro", sans-serif;
+  font-weight: 100;
+}
+
+.normal-font {
+  font-family: "MarkPro", sans-serif;
+  font-weight: 200;
+}
+
+.medium-font {
+  font-family: "MarkPro", sans-serif;
+  font-weight: 500;
+}
+
+.bold-font {
+  font-family: "MarkPro", sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("./fonts/MARKPROLIGHT.OTF") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("./fonts/MARKPRO.OTF") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("./fonts/MARKPROMEDIUM.OTF") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MarkPro";
+  src: url("./fonts/MARKPROBOLD.OTF") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kepler Std";
+  src: url("./fonts/keplerstd-light.otf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Importing fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  line-height: 1.6;
+}

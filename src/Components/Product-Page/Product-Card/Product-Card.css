@@ -1,23 +1,38 @@
 .Products .best-sellers {
-  height: 100vh;
-  overflow: hidden;
   background: #fff;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products .swiper-container {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .Products .swiper-wrapper {
+  height: 100%;
+  flex: 1;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+  overflow-y: scroll;
 }
 
 .Products .card {
-  width: 30% !important;
+  width: 31% !important;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 550px !important;
+  height: 500px !important;
   cursor: pointer;
   transition: 0.2s linear;
 }
@@ -34,7 +49,7 @@
 }
 
 .Products .card-image img {
-  width: 80%;
+  width: 70%;
 }
 
 .Products .card-text {
