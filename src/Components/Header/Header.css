@@ -27,7 +27,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  flex: 0.5;
+  flex: 0.7;
   height: 100%;
 }
 
@@ -37,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo-link {
@@ -47,11 +48,11 @@
 }
 
 .logo-link img {
-  width: 100%;
+  width: 90%;
 }
 
 .Header .navbar {
-  flex: 0.6;
+  flex: 0.7;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -59,7 +60,7 @@
 }
 
 .Header nav ul {
-  flex: 1;
+  flex: auto;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -92,7 +93,7 @@
 
 .profile-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
   flex: 0.2;
   height: 100%;

@@ -6,6 +6,7 @@
 .sellers {
   padding: 30px;
   height: 100%;
+  width: 100%;
   display: flex;
   overflow: hidden;
   flex-direction: column;
@@ -13,10 +14,14 @@
   gap: 50px;
 }
 
+.sellers .swiper-wrapper {
+  width: 100%;
+}
+
 .home-sellers .heading h3 {
   font-size: 45px;
   font-family: "Afterglow";
-  font-weight: 100;
+  font-weight: 500;
   color: #16402d;
 }
 
@@ -101,7 +106,6 @@
   color: #16402d;
   font-weight: 500;
   flex: 0.3;
-
 }
 
 .details .button {

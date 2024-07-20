@@ -32,6 +32,11 @@ export default function Header() {
                 </NavLink>
               </li>
               <li className="li">
+                <NavLink to="/supplychain" className="link">
+                  OUR SUPPPLY CHAIN PROCESS
+                </NavLink>
+              </li>
+              <li className="li">
                 <NavLink to="/contact" className="link">
                   MEET YOUR HERBS
                 </NavLink>

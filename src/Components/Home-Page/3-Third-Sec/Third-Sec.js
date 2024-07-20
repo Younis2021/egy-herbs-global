@@ -12,6 +12,8 @@ export default function ThirdSec({
   link,
   text,
   navLinks,
+  direction,
+  btn,
 }) {
   const controls = useAnimation();
   const [ref, inView] = useInView({
@@ -28,7 +30,7 @@ export default function ThirdSec({
 
   return (
     <div className="third-sec">
-      <div className="container" ref={ref}>
+      <div className="container" style={{ direction: direction }} ref={ref}>
         <motion.div
           className="left-div"
           style={{ backgroundImage: `url(${backGroundImg})` }}
@@ -44,7 +46,7 @@ export default function ThirdSec({
           }}
         ></motion.div>
         <div className="right-div-container" ref={ref}>
-          <div className="right-div">
+          <div className="right-div" style={{ direction: "initial" }}>
             {p1 && (
               <motion.p
                 className="top"
@@ -110,6 +112,7 @@ export default function ThirdSec({
                 ))}
               </ul>
             )}
+            {btn && <Link to="/" className="link">{btn}</Link>}
           </div>
         </div>
       </div>

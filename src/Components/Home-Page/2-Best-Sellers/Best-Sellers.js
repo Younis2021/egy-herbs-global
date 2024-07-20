@@ -60,25 +60,26 @@ export default function BestSellers() {
   return (
     <div className="best-sellers">
       {bestSellersContents.map((bestSellersContent, index) => (
-        <div className="swiper-container sellers sec-sec home-sellers" key={index}>
+        <motion.div
+          className="swiper-container sellers sec-sec home-sellers"
+          key={index}
+          ref={ref}
+          animate={controls}
+          initial="hidden"
+          variants={{
+            hidden: { opacity: 0 },
+            show: {
+              opacity: 1,
+              transition: {
+                staggerChildren: 0.25,
+              },
+            },
+          }}
+        >
           <div className="heading">
             <h3>{bestSellersContent.title}</h3>
           </div>
-          <motion.div
-            className="swiper-wrapper ss"
-            ref={ref}
-            animate={controls}
-            initial="hidden"
-            variants={{
-              hidden: { opacity: 0 },
-              show: {
-                opacity: 1,
-                transition: {
-                  staggerChildren: 0.25,
-                },
-              },
-            }}
-          >
+          <div className="swiper-wrapper ss">
             {/* Repeat structure for each card */}
             {bestSellersContent.cards.map((card, cardIndex) => (
               <motion.div
@@ -113,8 +114,8 @@ export default function BestSellers() {
                 </div>
               </motion.div>
             ))}
-          </motion.div>
-        </div>
+          </div>
+        </motion.div>
       ))}
     </div>
   );

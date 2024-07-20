@@ -1,26 +1,25 @@
 import React from "react";
 import "./Forth-Sec.css";
 import { AboutData } from "../AboutData/AboutData";
+import ThirdSec from "./Third-Sec/Third-Sec";
 
 export default function ForthSec() {
-  const ForthSecContent = AboutData.map((item) => item.ForthSec)[0];
+  const ForthSecContent = AboutData.map((item) => item.ThirdSec)[0];
+  
 
   return (
     <div className="Forth-Sec">
-      <div className="container">
-        <div className="left-div">
-          <span className="h2">{ForthSecContent.Left.h2}</span>
-          <p>{ForthSecContent.Left.p1}</p>
-          <p>{ForthSecContent.Left.p2}</p>
-        </div>
-        <div className="right-div">
-          <div
-            className="img-div"
-            style={{
-              background: `url(${ForthSecContent.Right.backgroundImage})`,
-            }}></div>
-        </div>
-      </div>
+      {ForthSecContent.map((element, i) => (
+        <ThirdSec
+          key={i} // Added key for each element
+          backGroundImg={element.backGroundImg}
+          p1={element.P} // Corrected prop name
+          p2={element.P2}
+          h1={element.h1}
+          direction={element.direction}
+          btn={element.btn}
+        />
+      ))}
     </div>
   );
 }

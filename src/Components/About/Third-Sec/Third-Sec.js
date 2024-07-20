@@ -3,7 +3,7 @@ import "./Third-Sec.css";
 import { AboutData } from "../AboutData/AboutData";
 
 export default function ThirdSec() {
-  const ThirdSecContent = AboutData.map((item) => item.ThirdSec)[0];
+  const ThirdSecContent = AboutData.map((item) => item.bSec)[0];
 
   return (
     <div className="Third-Sec">

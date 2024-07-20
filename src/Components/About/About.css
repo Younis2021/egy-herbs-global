@@ -64,6 +64,7 @@
 .About .ninth-sec .container .text-div * {
   width: 95%;
   line-height: 1.5;
+  font-family: "Kepler Std";
 }
 
 .About .ninth-sec .container .text-div :first-child {

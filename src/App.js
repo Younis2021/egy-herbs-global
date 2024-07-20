@@ -9,7 +9,7 @@ import ProductPage from "./Components/Product-Page/Product-Page";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import FloatingActionButton from "./Components/FloatingActionButton/Test";
-
+import SupplyChain from "./Components/Supply-Chain/Supply-Chain";
 
 export default function App() {
   const location = useLocation();
@@ -29,6 +29,7 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<ProductPage />} />
+            <Route path="/supplychain" element={<SupplyChain />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
