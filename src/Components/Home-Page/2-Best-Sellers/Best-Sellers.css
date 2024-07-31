@@ -1,5 +1,5 @@
 .best-sellers {
-  height: 100vh;
+  height: 110vh;
   overflow: hidden;
 }
 
@@ -19,9 +19,8 @@
 }
 
 .home-sellers .heading h3 {
-  font-size: 45px;
-  font-family: "Afterglow";
-  font-weight: 500;
+  font-size: 48px;
+  font-family: "SaudiaSB";
   color: #16402d;
 }
 
@@ -31,13 +30,14 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 5px;
-  height: 100% !important;
+  gap: 15px;
   cursor: pointer;
   font-family: "MarkPro";
+  overflow: hidden;
 }
 
 .card-image {
-  flex: 0.9;
+  flex: 0.7;
   width: 100%;
   border-radius: 15px;
   box-shadow: 3px 4px 6px #0003;
@@ -50,33 +50,43 @@
   width: 70%;
 }
 
+.card-bottom {
+  flex: 0.3;
+  width: 100%;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card-text {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 5px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .card-text span {
   font-family: "MarkPro";
   color: #16402d;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
 .card-text h2 {
   font-family: "MarkPro";
   color: #16402d;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
 }
 
 .details {
+  gap: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  justify-content: space-between;
 }
 
 .details div:first-of-type {
@@ -85,8 +95,8 @@
   gap: 10px;
 }
 
+
 .details .rating {
-  flex: 0.3;
   display: flex;
   column-gap: 5px;
   font-size: 17px;
@@ -97,7 +107,6 @@
   font-weight: 200;
   letter-spacing: 0.03125rem;
   color: #16402d;
-  flex: 0.3;
 }
 
 .details .reviewing {
@@ -105,7 +114,6 @@
   font-weight: 400;
   color: #16402d;
   font-weight: 500;
-  flex: 0.3;
 }
 
 .details .button {
@@ -117,7 +125,7 @@
   border: 1px solid #16402d;
   color: #16402d;
   border-radius: 8px;
-  padding: 10px 0;
+  padding: 8px 0;
   font-size: 15px;
   font-weight: 200;
   transition: 0.2s linear;

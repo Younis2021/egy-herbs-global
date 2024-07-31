@@ -32,7 +32,7 @@ export const HomePageData = [
     Hero: {
       backGroundImg: heroSecImg,
       heading: {
-        title: "Egy Herbs Global Nature",
+        title: "Egy Herbs Global",
         slogan: "Your Passport to Herbal Purity Treasures From Soil to Soul.",
       },
       button: {

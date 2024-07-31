@@ -7,7 +7,7 @@ import {
   AiOutlineUser,
   AiOutlineShoppingCart,
 } from "react-icons/ai";
-import logo from "../../img/logo-1.png";
+import logo from "../../img/logo-1s.jpg";
 
 export default function Header() {
   return (
@@ -23,7 +23,7 @@ export default function Header() {
             <ul>
               <li className="li">
                 <NavLink to="/products" className="link">
-                  SHOP
+                  PRODUCTS
                 </NavLink>
               </li>
               <li className="li">

@@ -97,7 +97,8 @@ export default function BestSellers() {
                 <div className="card-image">
                   <img src={card.cardImage} alt="" />
                 </div>
-                <div className="card-text">
+                <div className="card-bottom">
+                                  <div className="card-text">
                   <span>{card.cardText.span}</span>
                   <h2>{card.cardText.h2}</h2>
                 </div>
@@ -112,6 +113,8 @@ export default function BestSellers() {
                     {card.button}
                   </Link>
                 </div>
+                </div>
+
               </motion.div>
             ))}
           </div>
