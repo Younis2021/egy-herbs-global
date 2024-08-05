@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Kepler Std";
-  src: url("../../fonts/kepler-std-3-cdnfonts/KeplerStdMedium.otf"); /* Check the path to the font file */
+  src: url("../../fonts/rift/Rift\ Medium.otf"); /* Check the path to the font file */
   /* Add additional src lines for other font weights/styles if needed */
 }
 
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Afterglow";
-  src: url("../../fonts/Afterglow-Regular.ttf"); /* Check the path to the font file */
+  src: url("../../fonts/rift/Rift\ Medium.otf"); /* Check the path to the font file */
   /* Add additional src lines for other font weights/styles if needed */
 }
 

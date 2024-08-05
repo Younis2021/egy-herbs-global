@@ -47,7 +47,9 @@
 }
 
 .card-image img {
-  width: 70%;
+  max-width: 100%; /* Ensures the image does not overflow */
+  max-height: 100%; /* Prevents overflow and keeps aspect ratio */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
 }
 
 .card-bottom {
@@ -94,7 +96,6 @@
   align-items: center;
   gap: 10px;
 }
-
 
 .details .rating {
   display: flex;

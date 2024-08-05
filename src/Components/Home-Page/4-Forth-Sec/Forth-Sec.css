@@ -39,14 +39,13 @@
 }
 
 .newsletter-div .newsletter-card .newsletter-img {
-  background: url("../../../img/review1_x256.jpg");
+  background: url("../../../img/home/review1_x256.jpg");
   background-position: center;
   background-size: cover;
   flex: 0.6;
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
- 
 }
 
 .newsletter-div .newsletter-card .newsletter-video {
@@ -57,7 +56,6 @@
   background-position: center;
   background-size: cover;
   overflow: hidden;
-
 }
 
 iframe {
@@ -65,12 +63,12 @@ iframe {
   height: 100%;
   border-radius: 10px; /* Rounded corners */
   overflow: hidden;
-  outline: none ;
-  border: none ;
+  outline: none;
+  border: none;
 }
 
 .newsletter-div .newsletter-card .third-image {
-  background: url("../../../img/goldenmilk_x256.png");
+  background: url("../../../img/home/goldenmilk_x256.png");
   background-position: center;
   background-size: cover;
 }
@@ -83,7 +81,7 @@ iframe {
 }
 
 .newsletter-div .newsletter-card .fifth-image {
-  background: url("../../../img/emotionalbalanca_ed87a0ec-6d10-41af-a2ed-a40823ae028e_x256.png");
+  background: url("../../../img/home/emotionalbalanca_ed87a0ec-6d10-41af-a2ed-a40823ae028e_x256.png");
   background-position: center;
   background-size: cover;
 }
@@ -94,7 +92,7 @@ iframe {
   overflow: hidden;
 }
 .newsletter-div .newsletter-card .seventh-image {
-  background: url("../../../img/macaroot_x256.png");
+  background: url("../../../img/home/macaroot_x256.png");
   background-position: center;
   background-size: cover;
 }

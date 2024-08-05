@@ -80,20 +80,20 @@ code {
 
 @font-face {
   font-family: "Kepler Std";
-  src: url("./fonts/keplerstd-light.otf") format("truetype");
+  src: url("./fonts/rift/Rift\ Light.otf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: "SaudiaR";
-  src: url("./fonts/RTL-Saudi/WEB/SaudiaSans-Regular.woff2") format("truetype");
+  src: url("./fonts/rift/Rift\ Medium.otf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: "SaudiaM";
-  src: url("./fonts/RTL-Saudi/WEB/SaudiaSans-Medium.woff2") format("truetype");
+  src: url("./fonts/rift/Rift\ Medium.otf") format("truetype");
   font-style: normal;
 }
 

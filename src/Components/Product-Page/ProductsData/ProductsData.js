@@ -1,6 +1,6 @@
-import aboutHeroSecImg from "../../../img/header31_1440x.png";
-import aboutThirdSecImg from "../../../img/certified_72x.png";
-import aboutForthSecImg from "../../../img/logo-1.png";
+import aboutHeroSecImg from "../../../img/product/header31_1440x.png";
+import aboutThirdSecImg from "../../../img/product/certified_72x.png";
+import aboutForthSecImg from "../../../img/logo-1s.jpg";
 
 export const ProductsData = [
   {
@@ -10,7 +10,6 @@ export const ProductsData = [
         span2: "All Products",
       },
       p: "The support you want from high-quality, plant-based formulas you can trust—assured for purity, potency, and integrity.",
-      
     },
     SecondSec: {
       Left: {

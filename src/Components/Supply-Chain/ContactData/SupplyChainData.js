@@ -1,13 +1,11 @@
-import aboutHeroSecImg from "../../../img/gaia-contact-hero_1920x1280_d2d33f19-09e8-4208-a657-4ef0d8056211_3440x2x.progressive2.jpg";
-import aboutSecondSecImg from "../../../img/contact-callout-echinacea_1080x_1080x_a5ad6aad-b555-4b6d-977c-46e3f787a326_720x2x2.jpg";
-import aboutThirdSecImg from "../../../img/contact-callout-echinacea_1080x_1080x_a5ad6aad-b555-4b6d-977c-46e3f787a326_720x2x2.jpg";
-import aboutForthSecImg from "../../../img/logo-1.png";
-import farmingImage from "../../../img/our-story-hero_3440x2x.progressive.png2.jpg";
-import dryingImage from "../../../img/drying.jpeg";
-import procesingImage from "../../../img/procesing.jpeg";
-import packagingImage from "../../../img/packaging.jpeg";
-import deliverygImage from "../../../img/delivery.jpeg";
-import customergImage from "../../../img/customer.jpeg";
+import aboutHeroSecImg from "../../../img/supplyChain/gaia-contact-hero_1920x1280_d2d33f19-09e8-4208-a657-4ef0d8056211_3440x2x.progressive2.jpg";
+import aboutForthSecImg from "../../../img/logo-1s.jpg";
+import farmingImage from "../../../img/supplyChain/our-story-hero_3440x2x.progressive.png2.jpg";
+import dryingImage from "../../../img/supplyChain/drying.jpeg";
+import procesingImage from "../../../img/supplyChain/procesing.jpeg";
+import packagingImage from "../../../img/supplyChain/packaging.jpeg";
+import deliverygImage from "../../../img/supplyChain/delivery.jpeg";
+import customergImage from "../../../img/supplyChain/customer.jpeg";
 
 export const SupplyChainData = [
   {

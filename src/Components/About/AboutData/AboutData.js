@@ -1,8 +1,6 @@
-import aboutHeroSecImg from "../../../img/our-story-hero_3440x2x.progressive.png2.jpg";
-// import aboutHeroSecImg from "../../../img/about/aboutbg.jpg";
-import aboutSecondSecImg from "../../../img/high-angle-indian-spices-with-spoons-scaled.jpg";
-import aboutThirdSecImg from "../../../img/certified_72x.png";
-import aboutForthSecImg from "../../../img/logo-1.png";
+import aboutHeroSecImg from "../../../img/about/our-story-hero_3440x2x.progressive.png2.jpg";
+import aboutThirdSecImg from "../../../img/about/certified_72x.png";
+import aboutForthSecImg from "../../../img/logo-1s.jpg";
 import about1 from "../../../img/about/1.jpg";
 import about2 from "../../../img/about/2.jpg";
 import about3 from "../../../img/about/3.jpg";
@@ -24,7 +22,6 @@ export const AboutData = [
       p: "Since 2002, Egy Herbs Global has been showing the world that Doing Good, Works.",
     },
     SecondSec: {
-      backGroundImage: aboutSecondSecImg,
       spans: {
         span2: "Connecting People, Plants & Planet to Create Healing",
       },

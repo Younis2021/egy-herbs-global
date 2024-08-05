@@ -1,27 +1,22 @@
 // Home-Page-Data.js
+import extractedData from "../../../request_images/extracted_data.json";
 
-import heroSecImg from "../../../img/hero.png";
-import cardImage1 from "../../../img/product.png";
-import cardImage2 from "../../../img/product.png";
-import cardImage3 from "../../../img/product.png";
-import cardImage4 from "../../../img/product.png";
-import cardImage5 from "../../../img/product.png";
-import cardImage6 from "../../../img/product.png";
-import thidSecImg from "../../../img/L3A1858_950x.jpg";
-import newsLetterCardImage1 from "../../../img/review1_x256.jpg";
-import newsLetterCardImage2 from "../../../img/goldenmilk_x256.png";
-import newsLetterCardImage3 from "../../../img/emotionalbalanca_ed87a0ec-6d10-41af-a2ed-a40823ae028e_x256.png";
-import newsLetterCardImage4 from "../../../img/macaroot_x256.png";
-import fifthSecImg from "../../../img/SHOT_1_0069_FLAT_950x.progressive.png_copy_950x.progressive.png.jpg";
-import fifthSecStiker from "../../../img/illustration2_550x2.png";
-import sixthSecImg from "../../../img/bgDesign.png";
-import seventhcardIcon1 from "../../../img/tt_1_x1202.png";
-import seventhcardIcon2 from "../../../img/tt_2_x1202.png";
-import seventhcardIcon3 from "../../../img/tt_3_x1202.png";
-import seventhcardIcon4 from "../../../img/tt_4_x1202.png";
-import EighthSecImg1 from "../../../img/Facilities-83_1_1_700x2.jpg";
-import EighthSecImg2 from "../../../img/Facilities-83_1_1_700x2.jpg";
-import NinthSecImg from "../../../img/Burdock_1103_3440x2x.progressive2.jpg";
+import heroSecImg from "../../../img/home/hero.png";
+import thidSecImg from "../../../img/home/L3A1858_950x.jpg";
+import newsLetterCardImage1 from "../../../img/home/review1_x256.jpg";
+import newsLetterCardImage2 from "../../../img/home/goldenmilk_x256.png";
+import newsLetterCardImage3 from "../../../img/home/emotionalbalanca_ed87a0ec-6d10-41af-a2ed-a40823ae028e_x256.png";
+import newsLetterCardImage4 from "../../../img/home/macaroot_x256.png";
+import fifthSecImg from "../../../img/home/SHOT_1_0069_FLAT_950x.progressive.png_copy_950x.progressive.png.jpg";
+import fifthSecStiker from "../../../img/home/illustration2_550x2.png";
+import sixthSecImg from "../../../img/home/bgDesign.png";
+import seventhcardIcon1 from "../../../img/home/tt_1_x1202.png";
+import seventhcardIcon2 from "../../../img/home/tt_2_x1202.png";
+import seventhcardIcon3 from "../../../img/home/tt_3_x1202.png";
+import seventhcardIcon4 from "../../../img/home/tt_4_x1202.png";
+import EighthSecImg1 from "../../../img/home/Facilities-83_1_1_700x2.jpg";
+import EighthSecImg2 from "../../../img/home/Facilities-83_1_1_700x2.jpg";
+import NinthSecImg from "../../../img/home/Burdock_1103_3440x2x.progressive2.jpg";
 import tenththcardIcon1 from "../../../img/Plant-Powered_200x200_636e8e8d-2bc4-4b8b-b141-93261da0f38a_100x2.png";
 import tenththcardIcon2 from "../../../img/Potent_200x200_ad8fbab8-d58c-48a0-a1a1-b1d2d742fde9_100x2.png";
 import tenththcardIcon3 from "../../../img/Pure_200x200_d28e4a8d-f3ee-4849-b2f7-8e97aff720ba_100x2.png";
@@ -36,372 +31,30 @@ export const HomePageData = [
         slogan: "Your Passport to Herbal Purity Treasures From Soil to Soul.",
       },
       button: {
-        text: "DEACOVER",
+        text: "DESCOVER",
         link: "/products",
       },
     },
 
     BestSellers: {
       title: "Shop Best Sellers",
-      cards: [
-        {
-          id: 1,
-          y: 100,
-          delay: 0.2,
-          cardImage: cardImage1,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Turmeric Supreme® Extra Strength",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 302,
-            pricing: 30.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
+      cards: extractedData.images.map((image, index) => ({
+        id: index + 1,
+        y: index % 2 === 0 ? 100 : -100,
+        delay: 0.2 * (index + 1),
+        cardImage: image,
+        cardText: {
+          span: "Foundation Herbs",
+          h2: `Product ${index + 1}`,
         },
-        {
-          id: 2,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage2,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Another Product Name",
-          },
-          cardDetails: {
-            rating: 4,
-            reviewing: 250,
-            pricing: 25.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
+        cardDetails: {
+          rating: Math.floor(Math.random() * 5) + 1, // Random rating for example
+          reviewing: Math.floor(Math.random() * 500) + 1, // Random number of reviews
+          pricing: (Math.random() * 50).toFixed(2), // Random price for example
         },
-        {
-          id: 3,
-          y: 100,
-          delay: 0.2,
-          cardImage: cardImage3,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Yet Another Product",
-          },
-          cardDetails: {
-            rating: 3,
-            reviewing: 150,
-            pricing: 19.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 4,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage4,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "New Product Name",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 350,
-            pricing: 35.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 5,
-          delay: 0.2,
-          y: 100,
-          cardImage: cardImage5,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Popular Product",
-          },
-          cardDetails: {
-            rating: 4,
-            reviewing: 280,
-            pricing: 29.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 6,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 7,
-          y: 100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 7,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 8,
-          y: 100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 9,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 10,
-          y: 100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 11,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 12,
-          y: 100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 13,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 14,
-          y: 100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 15,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 16,
-          y: 100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 17,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 18,
-          y: 100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 19,
-          y: -100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-        {
-          id: 20,
-          y: 100,
-          delay: 0.4,
-          cardImage: cardImage6,
-          cardText: {
-            span: "Foundation Herbs",
-            h2: "Bestseller Product",
-          },
-          cardDetails: {
-            rating: 5,
-            reviewing: 400,
-            pricing: 39.99,
-          },
-          button: "MORE DETAILS",
-          link: "/products",
-        },
-      ],
+        button: "MORE DETAILS",
+        link: "/products",
+      })),
     },
 
     ThirdSec: {
