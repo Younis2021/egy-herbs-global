@@ -10,7 +10,7 @@ import {
 // import logo from "../../img/global/logo-1s.jpg";
 // import logo from "../../img/global/Gaia-Herbs-Logo_250x_2x_70d5128f-504f-4b28-8924-73b4999c9fd7_250x.png";
 // import logo from "../../img/global/new-gaia-logo-white_256x256_4ad8adb3-40c5-4a58-b39b-ec2a14d2f87b_250x.png";
-import logo from "../../img/global/sami final-06.png";
+import logo from "../../img/global/sami final-05.png";
 
 export default function Header() {
   return (
