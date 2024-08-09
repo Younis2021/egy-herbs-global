@@ -1,5 +1,5 @@
 .About .Second-Sec {
-  height: 40vh;
+  height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .About .Second-Sec .container .about-upper-text .about-icons {
-  font-size: 35px;
+  font-size: 32px;
   width: fit-content;
   gap: 30px;
   display: flex;
@@ -35,12 +35,11 @@
 }
 
 .About .Second-Sec .container .about-upper-text .h1 {
-  font-size: 56px;
+  font-size: 52px;
   font-family: "Rift";
 }
 
 .About .Second-Sec .container .about-upper-text p {
-  font-size: 19px;
   font-weight: 200;
   font-family: "MarkPro";
 }

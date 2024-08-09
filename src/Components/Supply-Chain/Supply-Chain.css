@@ -83,7 +83,7 @@
 
 .supply-chain .third-sec .container {
   width: 75%;
-  height: 80%;
+  height: 90%;
   display: flex;
   justify-content: space-between;
   background: #eaefec;
@@ -104,7 +104,7 @@
 }
 
 .supply-chain .third-sec .container .right-div {
-  height: 80%;
+  height: 90%;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -113,15 +113,14 @@
 }
 
 .supply-chain .tittle {
-  font-size: 36px;
   font-family: "Kepler Std";
   font-weight: normal;
   color: #16402d;
 }
 
 .supply-chain .paragraph {
-  font-size: 17px;
-  line-height: 35px;
+  font-size: 15px;
+  line-height: 30px;
   font-family: "MarkPro";
   font-weight: 300;
   color: #000000;

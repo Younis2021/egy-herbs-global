@@ -1,5 +1,5 @@
-.third-Sec {
-  height: 80vh;
+.contact .third-Sec {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,23 +27,23 @@
   align-items: center;
 }
 
-.third-Sec .container .text-container {
+.contact .third-Sec .container .text-container {
   overflow: hidden;
   height: 70%;
-  flex: 0.5;
+  flex: 1fr;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-.third-Sec .container .text-container .left-div-upper-text,
+.contact .third-Sec .container .text-container .left-div-upper-text,
 .left-div-lower-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100% !important;
   flex: 0.45;
   font-family: "MarkPro";
   font-size: 16px;

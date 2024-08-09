@@ -108,7 +108,7 @@
 }
 
 .contact .third-sec .container .right-div {
-  height: 70%;
+  height: 80%;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -117,15 +117,12 @@
 }
 
 .contact .tittle {
-  font-size: 36px;
   font-family: "Kepler Std";
   font-weight: normal;
   color: #16402d;
 }
 
 .contact .paragraph {
-  font-size: 16px;
-  line-height: 26px;
   font-family: "MarkPro";
   font-weight: 500;
   color: #000000;
@@ -145,7 +142,6 @@
 .contact .contact-third-link {
   text-decoration: none;
   color: green;
-  font-weight: 900;
-  font-size: 16px;
+  font-weight: 500;
   font-family: "MarkPro";
 }

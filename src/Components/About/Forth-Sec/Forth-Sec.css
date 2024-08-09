@@ -51,14 +51,13 @@
 }
 
 .About .Forth-Sec .tittle {
-  font-size: 60px !important;
+  font-size: 50px;
   font-family: "Rift" !important;
   font-weight: 600 !important;
   color: #16402d;
 }
 
 .About .Forth-Sec .paragraph {
-  font-size: 19px;
   font-family: "MarkPro";
   font-weight: 300;
   color: #16402d;
@@ -66,13 +65,13 @@
 
 .About .Forth-Sec .about-btn {
   background: transparent;
-  border: 3px solid #16402d;
+  border: 2px solid #16402d;
   text-decoration: none;
   outline: none;
   color: #16402d;
   font-family: "Rift";
-  font-size: 20px;
-  padding: 15px 35px;
+  font-size: 18px;
+  padding: 10px 25px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
