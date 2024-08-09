@@ -11,13 +11,16 @@ export default function Hero() {
   return (
     <div
       className="swiper-container hero"
-      style={{ background: `url(${heroContent.backGroundImg})` }}>
+      style={{ background: `url(${heroContent.backGroundImg})` }}
+    >
       <div className="swiper-wrapper">
         <div className="swiper-slide">
           <div className="control-div">
             <div className="home-text">
-              <div className="heading">{heroContent.heading.title}</div>
-              <div className="heading-2">{heroContent.heading.slogan}</div>
+              <div className="heading">
+                <h1 className="heading">{heroContent.heading.title}</h1>
+                <p className="heading-2">{heroContent.heading.slogan}</p>
+              </div>
               <Link to={heroContent.button.link} className="btn">
                 {heroContent.button.text}
               </Link>

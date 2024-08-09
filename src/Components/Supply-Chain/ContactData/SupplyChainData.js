@@ -1,5 +1,5 @@
 import aboutHeroSecImg from "../../../img/supplyChain/gaia-contact-hero_1920x1280_d2d33f19-09e8-4208-a657-4ef0d8056211_3440x2x.progressive2.jpg";
-import aboutForthSecImg from "../../../img/logo-1s.jpg";
+import aboutForthSecImg from "../../../img/global/logo-1s.jpg";
 import farmingImage from "../../../img/supplyChain/our-story-hero_3440x2x.progressive.png2.jpg";
 import dryingImage from "../../../img/supplyChain/drying.jpeg";
 import procesingImage from "../../../img/supplyChain/procesing.jpeg";

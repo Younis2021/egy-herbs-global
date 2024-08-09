@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import "./App.css";
 import GlobalStyle from "./GlobalStyles";
 
-import Header from "./Components/Header/Header";
+import Header from "./Components/Header/nav";
 import HomePage from "./Components/Home-Page/Home-Page";
 import ProductPage from "./Components/Product-Page/Product-Page";
 import About from "./Components/About/About";

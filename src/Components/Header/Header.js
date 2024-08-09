@@ -7,7 +7,9 @@ import {
   AiOutlineUser,
   AiOutlineShoppingCart,
 } from "react-icons/ai";
-import logo from "../../img/logo-1s.jpg";
+// import logo from "../../img/global/logo-1s.jpg";
+import logo from "../../img/global/sami final-01.png";
+// import logo from "../../img/global/sami final-02.png";
 
 export default function Header() {
   return (

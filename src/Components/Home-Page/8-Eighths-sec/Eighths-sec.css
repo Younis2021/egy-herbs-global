@@ -1,10 +1,9 @@
 .eighths-sec {
-  height: 120vh;
+  height: 140vh;
 }
 
 .eighths-sec .container {
   height: 100%;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,8 +12,8 @@
 
 .eighths-sec .container .upper-div {
   flex: 0.2;
-  font-size: 36px;
-  font-family: "Kepler Std";
+  font-size: 32px;
+  font-family: "Afterglow";
   font-weight: 100;
   color: #8daf56;
   display: flex;
@@ -45,15 +44,15 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   gap: 20px;
   overflow: hidden;
-  cursor:  pointer;
+  cursor: pointer;
 }
 
 .eighths-sec .container .lower-div .card-div .card-top {
-  flex: 0.6;
+  flex: 0.55;
   width: 100%;
   overflow: hidden;
 }
@@ -72,7 +71,7 @@
 }
 
 .eighths-sec .container .lower-div .card-div .card-bottom {
-  flex: 0.4;
+  flex: 0.45;
   width: 90%;
   display: flex;
   overflow: hidden;
@@ -84,7 +83,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  gap: 20px;
   height: 100%;
 }
 
@@ -113,12 +111,12 @@
 }
 
 .eighths-sec .card-details .h2 {
-  font-size: 28px;
+  font-size: 26px;
   font-family: "Kepler Std";
 }
 
 .eighths-sec .card-details p {
-  font-size: 16px;
+  font-size: 14px;
   color: #000000;
   line-height: 25px;
 }

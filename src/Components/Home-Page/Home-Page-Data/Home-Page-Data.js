@@ -9,18 +9,18 @@ import newsLetterCardImage3 from "../../../img/home/emotionalbalanca_ed87a0ec-6d
 import newsLetterCardImage4 from "../../../img/home/macaroot_x256.png";
 import fifthSecImg from "../../../img/home/SHOT_1_0069_FLAT_950x.progressive.png_copy_950x.progressive.png.jpg";
 import fifthSecStiker from "../../../img/home/illustration2_550x2.png";
-import sixthSecImg from "../../../img/home/bgDesign.png";
+import sixthSecImg from "../../../img/testing/4.jpg";
 import seventhcardIcon1 from "../../../img/home/tt_1_x1202.png";
 import seventhcardIcon2 from "../../../img/home/tt_2_x1202.png";
 import seventhcardIcon3 from "../../../img/home/tt_3_x1202.png";
 import seventhcardIcon4 from "../../../img/home/tt_4_x1202.png";
 import EighthSecImg1 from "../../../img/home/Facilities-83_1_1_700x2.jpg";
 import EighthSecImg2 from "../../../img/home/Facilities-83_1_1_700x2.jpg";
-import NinthSecImg from "../../../img/home/Burdock_1103_3440x2x.progressive2.jpg";
-import tenththcardIcon1 from "../../../img/Plant-Powered_200x200_636e8e8d-2bc4-4b8b-b141-93261da0f38a_100x2.png";
-import tenththcardIcon2 from "../../../img/Potent_200x200_ad8fbab8-d58c-48a0-a1a1-b1d2d742fde9_100x2.png";
-import tenththcardIcon3 from "../../../img/Pure_200x200_d28e4a8d-f3ee-4849-b2f7-8e97aff720ba_100x2.png";
-import tenththcardIcon4 from "../../../img/Transparent_200x200_50b320a8-5626-43da-8ce3-43eb97747cbf_100x2.png";
+import NinthSecImg from "../../../img/testing/12.jpg";
+import tenththcardIcon1 from "../../../img/global/Plant-Powered_200x200_636e8e8d-2bc4-4b8b-b141-93261da0f38a_100x2.png";
+import tenththcardIcon2 from "../../../img/global/Potent_200x200_ad8fbab8-d58c-48a0-a1a1-b1d2d742fde9_100x2.png";
+import tenththcardIcon3 from "../../../img/global/Pure_200x200_d28e4a8d-f3ee-4849-b2f7-8e97aff720ba_100x2.png";
+import tenththcardIcon4 from "../../../img/global/Transparent_200x200_50b320a8-5626-43da-8ce3-43eb97747cbf_100x2.png";
 
 export const HomePageData = [
   {

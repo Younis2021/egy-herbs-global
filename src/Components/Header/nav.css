@@ -1,0 +1,113 @@
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  /* box-shadow: 0 5px 16px #0000000a; */
+  transition: 0.5s;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1111;
+}
+
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fcfbf9;
+  box-shadow: 0 5px 16px #0000000a;
+  transition: 0.5s;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1111;
+}
+
+.Header .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.nav-left-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0.4;
+}
+
+.nav-center-div {
+  flex: 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-right-div {
+  flex: 0.4;
+  display: flex;
+}
+
+.logo-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-link img {
+  width: 150px;
+}
+
+.Header ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Header ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.link {
+  color: #000;
+  /* color: #eeeeee; */
+  cursor: default;
+  font-family: "MarkPro";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.li:hover {
+  border-bottom: 2px solid #b0603b;
+}
+
+.link span {
+  font-weight: 100;
+}
+
+.icon-Link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 22px;
+  color: #205c40;
+  /* color: #e7e7e7 !important; */
+}
+
+.icon:hover {
+  opacity: 0.8;
+}

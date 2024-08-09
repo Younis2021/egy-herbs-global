@@ -18,7 +18,7 @@
 .sixth-sec .container .left-div {
   background-position: center !important;
   background-size: cover !important;
-  flex: 0.5;
+  flex: 0.45;
   border-radius: 5px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .sixth-sec .container .right-div {
-  height: 70%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,7 +44,7 @@
 }
 
 .sixth-sec .rating-div span {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "MarkPro";
 }
 
@@ -63,19 +63,19 @@
 
 .sixth-sec .top {
   font-family: "MarkPro";
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0;
 }
 
 .sixth-sec .tittle {
-  font-size: 36px;
+  font-size: 32px;
   font-family: "Kepler Std";
   font-weight: normal;
   color: #ffffff;
 }
 
 .sixth-sec .paragraph {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   font-family: "MarkPro";
   font-weight: normal;

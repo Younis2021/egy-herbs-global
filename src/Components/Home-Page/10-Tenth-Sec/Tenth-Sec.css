@@ -1,5 +1,5 @@
 .tenth-sec {
-  height: 30vh;
+  height: 35vh;
 }
 
 .tenth-sec .container {
@@ -50,7 +50,7 @@
 .tenth-sec .container .lower-div .card-div .card-top .card-title {
   text-align: center;
   font-size: 16px;
-  font-family: "Kepler Std";
+  font-family: "Afterglow";
   font-weight: 100;
   color: #16402d;
 }
@@ -59,9 +59,8 @@
   text-align: center;
   color: #000;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   font-family: "MarkPro";
-  line-height: 22px;
 }
 
 .tenth-sec .link {
@@ -70,6 +69,10 @@
   border: none;
   cursor: pointer;
   transition: 0.1s linear;
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  -ms-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
 }
 
 .tenth-sec .link:hover {

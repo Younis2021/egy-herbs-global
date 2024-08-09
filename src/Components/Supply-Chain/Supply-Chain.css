@@ -1,28 +1,21 @@
-/*---------------------------------------
-  SUPPLY-CHAIN              
------------------------------------------*/
 .supply-chain {
-  width: 100%;
   overflow: hidden;
-  font-family: "Kepler Std";
+  font-family: "SaudiaSB";
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 80px;
+  gap: 50px;
 }
 
 .supply-chain .ninth-sec {
   background-position: bottom !important;
-  background-size: cover !important;
-  height: 75vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .supply-chain .ninth-sec .glass {
-  background: transparent;
-  opacity: 1;
   flex: 1;
   height: 100%;
   display: flex;
@@ -31,34 +24,57 @@
 }
 
 .supply-chain .ninth-sec .container {
-  height: 50%;
-  flex: 0.5 !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.supply-chain .ninth-sec .container .text-div {
   background: #0009;
-  border-radius: 10px;
+  flex: 1 !important;
+  height: 100% !important;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 65%;
-  height: 90%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: flex-end !important;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
 
-.supply-chain .ninth-sec .container .text-div * {
-  width: 90%;
-  line-height: 1.5;
+.supply-chain .ninth-sec .container .text-div {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 45%;
+  height: 60%;
+  margin-bottom: 25px;
 }
 
 .supply-chain .ninth-sec .container .text-div :first-child {
   display: none;
+}
+
+.ninth-sec .container .text-div p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.supply-chain .ninth-sec .container {
+  flex: 0.5;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supply-chain .ninth-sec .container .text-div * {
+  width: 85%;
+  opacity: 1;
+  color: #fff;
+}
+
+.supply-chain .ninth-sec .container .text-div .h1 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Kepler Std";
+  color: #fff;
 }
 
 .supply-chain .third-sec {

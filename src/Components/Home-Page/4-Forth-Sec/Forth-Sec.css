@@ -11,8 +11,6 @@
 }
 
 .text-4 {
-  font-size: 35px;
-  letter-spacing: 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,29 +18,38 @@
   width: 25%;
 }
 
+.star-p {
+  font-size: 48px;
+  font-family: "SaudiaSB";
+}
+
 .text-4 .rating {
   display: flex;
   gap: 20px;
+  font-size: 30px;
 }
 
 .newsletter-div {
   height: 80%;
   width: 60%;
+  gap: 20px;
 }
 
 .newsletter-div .newsletter-card {
-  width: 31% !important;
+  width: 33% !important;
   display: flex;
   flex-direction: column;
-  padding: 5px;
-  gap: 30px;
+  justify-content: space-between;
+  padding: 0 5px;
+  /* padding: 5px; */
+  /* gap: 30px; */
 }
 
 .newsletter-div .newsletter-card .newsletter-img {
   background: url("../../../img/home/review1_x256.jpg");
   background-position: center;
   background-size: cover;
-  flex: 0.6;
+  flex: 0.45;
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
@@ -98,53 +105,45 @@ iframe {
 }
 
 .newsletter-div .newsletter-details {
-  flex: 0.4;
+  flex: 0.5;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
 }
 
 .newsletter-div .newsletter-details * {
-  flex: 0.3;
   color: #16402d;
   font-family: "MarkPro";
 }
 
 .newsletter-div .newsletter-details .newsletter-span {
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .newsletter-div .newsletter-details .newsletter-span * {
   color: #ffff;
   border-radius: 3px;
   font-family: "MarkPro";
-  font-size: 14px;
-  flex: 0.7;
+  font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #16402d;
-  padding: 2px 0;
-}
-
-.newsletter-div .newsletter-details .newsletter-span span:nth-child(2) {
-  flex: 0.25;
-  font-weight: 100;
-  font-family: "MarkPro";
-  font-size: 14px;
+  padding: 5px 10px;
 }
 
 .newsletter-div .newsletter-details h2 {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .newsletter-div .newsletter-details p {
-  font-size: 14px;
+  font-size: 13px;
 }
 
-.newsletter-div .newsletter-details span:last-child {
+.newsletter-div .newsletter-details .signature {
   font-size: 16px;
   font-weight: 900;
 }

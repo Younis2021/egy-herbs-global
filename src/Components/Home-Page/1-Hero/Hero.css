@@ -1,8 +1,7 @@
 .hero {
-  height: 78vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover !important;
-  background-position: center !important;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -10,53 +9,46 @@
 }
 
 .hero .swiper-slide {
-  flex: 0.6;
+  flex: 0.5;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .hero .home-text {
-  gap: 5px;
+  gap: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between !important;
-  margin: auto;
+  justify-content: space-between;
   height: 100%;
-}
-.hero .home-text * {
-  width: 75%;
 }
 
 .hero .heading {
-  
-  font-size: 70px;
-  /* Adjust as needed */
+  font-size: 60px;
   color: #fff;
   font-family: "SaudiaSB", sans-serif;
-  font-weight: lighter;
+  font-weight: 100;
 }
 
 .hero .heading-2 {
-  font-size: 1.2rem;
-  /* Adjust as needed */
+  font-size: 16px;
   font-weight: 400;
+  width: 80%;
   color: #fff;
-  letter-spacing: 1.1px;
   font-family: "MarkPro", sans-serif;
-  margin-bottom: 1.5rem;
 }
 
 .btn {
   width: fit-content !important;
   border-radius: 5px;
-  padding: 0.9rem 2rem;
+  padding: 0.7rem 1.5rem;
   background: #fff;
   color: #205c40;
   border-radius: none;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   letter-spacing: 0.5px;
   font-family: "MarkPro", sans-serif;
   font-weight: 500;

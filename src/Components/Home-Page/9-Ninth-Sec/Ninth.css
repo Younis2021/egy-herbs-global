@@ -1,10 +1,11 @@
 .ninth-sec {
-  background-position: bottom !important;
+  background-position: center !important;
   background-size: cover !important;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .ninth-sec .container {
@@ -34,25 +35,23 @@
   align-items: center;
   text-align: center;
   width: 70%;
-  height: 90%;
+  height: 100%;
   font-family: "MarkPro";
   font-weight: 900;
-}
-
-.ninth-sec .container .text-div * {
-  width: 95%;
+  padding: 30px;
 }
 
 .ninth-sec .container .text-div span {
   font-size: 14px;
   letter-spacing: 0.9px;
   color: #fff;
+  font-weight: 500;
 }
 
 .ninth-sec .container .text-div .h1 {
-  font-size: 50px;
+  font-size: 36px;
   color: #fff;
-  font-family: "Kepler Std";
+  font-family: "Afterglow";
   font-weight: 100;
 }
 
@@ -61,8 +60,6 @@
 }
 
 .ninth-sec .container .text-div p {
-  font-size: 18px;
+  font-size: 16px !important;
   color: #fff;
-  letter-spacing: 1.1px;
-  width: 80%;
 }

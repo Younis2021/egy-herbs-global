@@ -80,31 +80,28 @@ code {
 
 @font-face {
   font-family: "Kepler Std";
-  src: url("./fonts/rift/Rift\ Light.otf") format("truetype");
+  src: url("./fonts/Anglecia-Pro-Display.otf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: "SaudiaR";
-  src: url("./fonts/rift/Rift\ Medium.otf") format("truetype");
+  src: url("./fonts/AlexBrush-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: "SaudiaM";
-  src: url("./fonts/rift/Rift\ Medium.otf") format("truetype");
+  src: url("./fonts/AlexBrush-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: "SaudiaSB";
-  src: url("./fonts/rift/Rift\ Bold.otf") format("truetype");
+  src: url("./fonts/AlexBrush-Regular.ttf") format("truetype");
   font-style: normal;
 }
-
-/* Importing fonts from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap");
 
 body {
   font-family: "Montserrat", sans-serif !important;

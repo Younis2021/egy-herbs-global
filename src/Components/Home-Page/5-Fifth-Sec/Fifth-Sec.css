@@ -9,7 +9,7 @@
 
 .fifth-sec .container {
   width: 70%;
-  height: 70%;
+  height: 75%;
   display: flex;
   justify-content: space-between;
 }
@@ -47,24 +47,24 @@
   color: #16402d;
   font-weight: 900;
   box-shadow: 2px 2px 3px #0006;
+  font-size: 12px;
 }
 
 .top {
   font-family: "MarkPro";
   letter-spacing: 3px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .tittle {
-  font-size: 36px;
+  font-size: 32px;
   font-family: "Kepler Std";
   font-weight: normal;
   color: #16402d;
 }
 
 .paragraph {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 14px;
   font-family: "MarkPro";
   font-weight: normal;
   color: #524f4f;

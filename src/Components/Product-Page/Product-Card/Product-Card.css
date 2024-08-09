@@ -28,24 +28,33 @@
 }
 
 .Products .card {
-  width: 31% !important;
+  width: 30% !important;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   height: 500px !important;
   cursor: pointer;
   transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
 }
 
 .Products .card-image {
   flex: 0.8;
   width: 100%;
-  border-radius: 5px;
-  box-shadow: none;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
+  box-shadow: 0 5px 16px #0000000a;
   align-items: center;
-  background: #d7ccbc4f;
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .Products .card-image img {
@@ -53,7 +62,7 @@
 }
 
 .Products .card-text {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,12 +83,12 @@
 .Products .card-text h2 {
   font-family: "Kepler Std" !important;
   color: #16402d;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
 }
 
 .Products .details {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -100,12 +109,10 @@
 }
 
 .Products .details .pricing {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
   letter-spacing: 0.03125rem;
   color: #16402d;
   font-family: "MarkPro";
-  font-weight: 600;
   flex: 0.3;
 }
 
@@ -131,5 +138,9 @@
   border-color: #356a4c;
   background-color: #356a4c;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.2s linear;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -ms-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
 }

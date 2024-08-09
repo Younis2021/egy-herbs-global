@@ -55,7 +55,7 @@ export default function NewsLetterCard({
           </div>
           <h2>{h2}</h2>
           <p>{p}</p>
-          <span>{signature}</span>
+          <span className="signature">{signature}</span>
         </div>
       )}
       {cardVideoUrl && (

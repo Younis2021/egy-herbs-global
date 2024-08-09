@@ -1,24 +1,6 @@
-@font-face {
-  font-family: "Kepler Std";
-  src: url("../../fonts/rift/Rift\ Medium.otf"); /* Check the path to the font file */
-  /* Add additional src lines for other font weights/styles if needed */
-}
-
-@font-face {
-  font-family: "MarkPro";
-  src: url("../../fonts/MARKPROLIGHT.OTF"); /* Check the path to the font file */
-  /* Add additional src lines for other font weights/styles if needed */
-}
-
-@font-face {
-  font-family: "Afterglow";
-  src: url("../../fonts/rift/Rift\ Medium.otf"); /* Check the path to the font file */
-  /* Add additional src lines for other font weights/styles if needed */
-}
-
 .Products {
   overflow: hidden;
-  font-family: "Kepler Std";
+  font-family: "SaudiaSB";
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -26,15 +8,14 @@
 }
 
 .Products .ninth-sec {
-  background-position: center !important;
-  height: 45vh;
+  background-position: bottom !important;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .Products .ninth-sec .glass {
-  background: rgba(255, 255, 255, 0.4);
   flex: 1;
   height: 100%;
   display: flex;
@@ -43,11 +24,17 @@
 }
 
 .Products .ninth-sec .container {
-  flex: 0.5 !important;
+  background: #0009;
+  flex: 1 !important;
   height: 100% !important;
   display: flex;
+  border-radius: 10px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .Products .ninth-sec .container .text-div {
@@ -55,8 +42,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 100%;
-  height: 90%;
+  width: 45%;
+  height: 60%;
+  margin-bottom: 25px;
 }
 
 .Products .ninth-sec .container .text-div :first-child {
@@ -79,14 +67,14 @@
 .Products .ninth-sec .container .text-div * {
   width: 85%;
   opacity: 1;
-  color: #16402d;
+  color: #fff;
 }
 
 .Products .ninth-sec .container .text-div .h1 {
   font-size: 50px;
   font-weight: 400;
   font-family: "Kepler Std";
-  color: #16402d;
+  color: #fff;
 }
 
 .ContactForthSec .container .text-div .btn {

@@ -42,7 +42,7 @@ export default function ForthSec() {
       <div className="container-4">
         <div className="text-4">
           <StarRating rating={5} />
-          <p>{fothSecContent}</p>
+          <p className="star-p">{fothSecContent}</p>
           <div className="controllers-div"></div>
         </div>
         <div className="newsletter-div">

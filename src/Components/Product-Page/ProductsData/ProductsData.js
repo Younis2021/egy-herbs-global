@@ -1,6 +1,6 @@
-import aboutHeroSecImg from "../../../img/product/header31_1440x.png";
+import aboutHeroSecImg from "../../../img/testing/6.jpg";
 import aboutThirdSecImg from "../../../img/product/certified_72x.png";
-import aboutForthSecImg from "../../../img/logo-1s.jpg";
+import aboutForthSecImg from "../../../img/global/logo-1s.jpg";
 
 export const ProductsData = [
   {
