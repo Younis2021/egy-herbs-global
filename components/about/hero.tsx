@@ -8,7 +8,11 @@ export function AboutHero() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
+<<<<<<< HEAD
           backgroundImage: 'url("https://ik.imagekit.io/pcet3dvcu/about/9.jpg?updatedAt=1726257808493")',
+=======
+          backgroundImage: 'url("https://images.unsplash.com/photo-1591810477128-889bc8d33d39?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80")',
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
         }}
       >
         <div className="absolute inset-0 bg-black/50" />

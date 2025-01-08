@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const posts = [
+<<<<<<< HEAD
     {
     title: "A Strong Start at the Medicinal & Aromatic Plants Expo",
     excerpt: "From our booth on the opening day, proudly presenting the finest herbs and spices to industry professionals.",
@@ -25,6 +26,25 @@ const posts = [
       "A special session with one of our valued clients, showcasing samples and discussing opportunities during Food Africa.",
     image: "https://ik.imagekit.io/pcet3dvcu/home/1733337518996.jpeg?updatedAt=1736153997851",
     date: "Dec 4, 2024"
+=======
+  {
+    title: "The Health Benefits of Turmeric",
+    excerpt: "Discover the amazing health benefits of this golden spice and how to incorporate it into your daily routine.",
+    image: "https://images.unsplash.com/photo-1615485500704-8e990f9900f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    date: "Mar 15, 2024"
+  },
+  {
+    title: "Cooking with Fresh vs. Dried Herbs",
+    excerpt: "Learn when to use fresh herbs and when dried herbs work better in your cooking.",
+    image: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    date: "Mar 12, 2024"
+  },
+  {
+    title: "Essential Spices for Every Kitchen",
+    excerpt: "A guide to building your essential spice collection for delicious cooking.",
+    image: "https://images.unsplash.com/photo-1532336414038-cf19250c5757?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    date: "Mar 10, 2024"
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
   }
 ];
 

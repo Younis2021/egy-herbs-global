@@ -8,7 +8,11 @@ export function ProcessHero() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
+<<<<<<< HEAD
           backgroundImage: 'url("https://ik.imagekit.io/pcet3dvcu/supplyChain/c4e23658fc.jpg?updatedAt=1736155387708")',
+=======
+          backgroundImage: 'url("https://images.unsplash.com/photo-1589927986089-35812388d1f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80")',
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
@@ -24,7 +28,12 @@ export function ProcessHero() {
             Our Process
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+<<<<<<< HEAD
             Explore our commitment to quality and efficiency. Reach out for any inquiries or to learn more about our trusted supply chain.
+=======
+            From farm to table, discover how we maintain quality and sustainability
+            throughout our supply chain.
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
           </p>
         </motion.div>
       </div>

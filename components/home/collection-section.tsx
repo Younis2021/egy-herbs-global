@@ -9,7 +9,11 @@ const collections = [
   {
     title: "Herbs",
     description: "Traditional and exotic herbs for cooking and wellness",
+<<<<<<< HEAD
     image: "https://ik.imagekit.io/pcet3dvcu/home/Herbs-1.jpg?updatedAt=1736081793544",
+=======
+    image: "https://images.unsplash.com/photo-1515594848784-77172e3f3c3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
     items: "24+ varieties"
   },
   {
@@ -21,13 +25,21 @@ const collections = [
   {
     title: "Seeds",
     description: "Organic seeds for cooking and planting",
+<<<<<<< HEAD
     image: "https://ik.imagekit.io/pcet3dvcu/home/SUN-FLOWER-SEEDS.jpg?updatedAt=1736082173051",
+=======
+    image: "https://images.unsplash.com/photo-1558818498-c326e6505d57?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
     items: "20+ varieties"
   },
   {
     title: "Legumes",
     description: "High-quality legumes and pulses",
+<<<<<<< HEAD
     image: "https://ik.imagekit.io/pcet3dvcu/home/82e7ab67cd.jpg?updatedAt=1736082572058",
+=======
+    image: "https://images.unsplash.com/photo-1614441884165-f0b7703f3586?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
     items: "20+ varieties"
   }
 ];

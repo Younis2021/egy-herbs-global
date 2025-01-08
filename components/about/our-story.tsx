@@ -1,5 +1,6 @@
 'use client';
 
+<<<<<<< HEAD
 import { Card } from "@/components/ui/card";
 import { motion } from "framer-motion";
 
@@ -23,6 +24,31 @@ const milestones = [
     year: "2025",
     title: "Today",
     description: "Leading exporter of Egyptian herbs and spices"
+=======
+import { motion } from "framer-motion";
+import { Card } from "@/components/ui/card";
+
+const milestones = [
+  {
+    year: "1995",
+    title: "Our Beginning",
+    description: "Started as a small family-owned herb garden in California"
+  },
+  {
+    year: "2005",
+    title: "Going Organic",
+    description: "Achieved USDA organic certification and expanded operations"
+  },
+  {
+    year: "2015",
+    title: "Global Expansion",
+    description: "Established partnerships with farmers worldwide"
+  },
+  {
+    year: "2024",
+    title: "Today",
+    description: "Leading supplier of premium herbs and spices globally"
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
   }
 ];
 
@@ -41,7 +67,12 @@ export function OurStory() {
             Our Journey
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+<<<<<<< HEAD
             Since 1987, Egy Herbs Global has been committed to delivering top-quality herb, spice, and seed solutions.
+=======
+            From humble beginnings to becoming a leading supplier of premium herbs and spices,
+            our journey has been guided by a commitment to quality and sustainability.
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
           </p>
         </motion.div>
 

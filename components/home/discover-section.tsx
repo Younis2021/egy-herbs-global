@@ -1,7 +1,12 @@
 'use client';
 
+<<<<<<< HEAD
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+=======
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
 
 export function DiscoverSection() {
   return (
@@ -9,7 +14,11 @@ export function DiscoverSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-20"
         style={{
+<<<<<<< HEAD
           backgroundImage: 'url("https://ik.imagekit.io/pcet3dvcu/home/12.jpg?updatedAt=1726259343720")'
+=======
+          backgroundImage: 'url("https://images.unsplash.com/photo-1550989460-0adf9ea622e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80")'
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
         }}
       />
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

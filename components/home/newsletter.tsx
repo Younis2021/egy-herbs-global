@@ -17,7 +17,11 @@ export function Newsletter() {
         >
           <h2 className="text-3xl font-bold mb-4">Not sure where to start?</h2>
           <p className="text-lg mb-8 text-emerald-100">
+<<<<<<< HEAD
             Subscribe to our newsletter and let egy herbs global be your guide and receive expert tips and exclusive offers.
+=======
+            Subscribe to our newsletter and receive expert tips, recipes, and exclusive offers.
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
           </p>
           <form className="flex flex-col sm:flex-row gap-4">
             <Input

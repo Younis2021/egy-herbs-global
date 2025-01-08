@@ -60,7 +60,11 @@ export function Sustainability() {
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 mb-6">
                   <initiative.icon className="w-8 h-8" />
                 </div>
+<<<<<<< HEAD
                 <h3 className="text-xl font-semibold mb-4 text-white">{initiative.title}</h3>
+=======
+                <h3 className="text-xl font-semibold mb-4">{initiative.title}</h3>
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
                 <p className="text-emerald-100">{initiative.description}</p>
               </Card>
             </motion.div>

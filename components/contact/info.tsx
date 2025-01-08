@@ -8,22 +8,38 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Address",
+<<<<<<< HEAD
     details: ["Industrial Zone", "Cairo", "Egypt"]
+=======
+    details: ["123 Nature Way", "Green Valley, CA 90210", "United States"]
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
   },
   {
     icon: Phone,
     title: "Phone",
+<<<<<<< HEAD
     details: ["+20 123 456 789", "+20 109 876 543"]
+=======
+    details: ["+1 (555) 123-4567", "+1 (555) 765-4321"]
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
   },
   {
     icon: Mail,
     title: "Email",
+<<<<<<< HEAD
     details: ["info@egyherbsglobal.com", "sales@egyherbsglobal.com"]
+=======
+    details: ["info@herbaltreasures.com", "support@herbaltreasures.com"]
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
   },
   {
     icon: Clock,
     title: "Business Hours",
+<<<<<<< HEAD
     details: ["Sunday - Thursday: 9:00 AM - 5:00 PM", "Friday - Saturday: Closed"]
+=======
+    details: ["Monday - Friday: 9:00 AM - 6:00 PM", "Saturday: 10:00 AM - 4:00 PM", "Sunday: Closed"]
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
   }
 ];
 

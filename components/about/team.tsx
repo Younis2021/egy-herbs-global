@@ -1,15 +1,27 @@
 'use client';
 
+<<<<<<< HEAD
 import { Card } from "@/components/ui/card";
 import { motion } from "framer-motion";
+=======
+import { motion } from "framer-motion";
+import { Card } from "@/components/ui/card";
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
 import Image from "next/image";
 
 const team = [
   {
+<<<<<<< HEAD
     name: "Mohamed Hawas",
     role: "CEO & Founder",
     image: "https://ik.imagekit.io/pcet3dvcu/about/1.jpg?updatedAt=1726257809047",
     bio: "10+ years of experience in sustainable agriculture"
+=======
+    name: "Sarah Johnson",
+    role: "CEO & Founder",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+    bio: "25+ years of experience in sustainable agriculture"
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
   },
   {
     name: "Michael Chen",

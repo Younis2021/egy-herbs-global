@@ -6,12 +6,20 @@ import { Sprout, Sun, Factory, Truck, Store } from "lucide-react";
 const steps = [
   {
     icon: Sprout,
+<<<<<<< HEAD
     title: "Farming",
+=======
+    title: "Cultivation",
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
     description: "Carefully selected farms using sustainable practices"
   },
   {
     icon: Sun,
+<<<<<<< HEAD
     title: "Drying",
+=======
+    title: "Harvesting",
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
     description: "Harvested at peak maturity for optimal quality"
   },
   {
@@ -26,7 +34,11 @@ const steps = [
   },
   {
     icon: Store,
+<<<<<<< HEAD
     title: "Customer Service",
+=======
+    title: "Retail",
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
     description: "Fresh products delivered to your doorstep"
   }
 ];

@@ -8,7 +8,11 @@ export function ProductHero() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
+<<<<<<< HEAD
           backgroundImage: 'url("https://ik.imagekit.io/pcet3dvcu/home/Herbs-1.jpg?updatedAt=1736081793544")',
+=======
+          backgroundImage: 'url("https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80")',
+>>>>>>> 4c8206021add99218f12f24650223a5e2ac4ef10
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
